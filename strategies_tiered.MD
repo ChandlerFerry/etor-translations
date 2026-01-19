@@ -34,3 +34,15 @@
 ---
 ## Traveler Set
 1. Kong + Div Card Pets
+
+## Secret Realm Set - Pick 3
+1. Dark Surge (Day 1 gear drop quant)
+2. Chalk Spirit
+  - 1 @ +32% Fuel +1% additonal
+  - 3 @ +10% Fuel
+  - 5 @ +10% Fuel
+  - 6 @ +0.3% additional
+3. Cloudgatherer - Surging Gold (42% Fuel + 10% @ 5)
+3. Cloudgatherer - Sky (24% Ember + 8% @ 5)
+4. Happy Chonky (26% Fuel)
+5. Idling Weasel - Cherry Blossom (20% Ember)

@@ -1,3 +1,15 @@
+## Strategy Point Requirements
+*Points needed - not including 15 to spawn mech, god of war/hunt, or commodities*
+
+- **Sandlord**: 0 (<T5)
+- **Blacksail**: 12 (T7-8)
+- **Arcana**: 20 (T8+)
+- **Dream**: 28 (T7+)
+- **Cube**: 36-52 (T7+)
+- **Dark Surge**: 36+20 (T8+)
+
+---
+
 ## Early Maps
 1. Sail + Boss Rush
   - Pet level 1

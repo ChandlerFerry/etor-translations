@@ -72,6 +72,7 @@ Need damage? - Burst of Anger - Well-Fought Battle
     - Corrupt for a 30% chance at even more damage
 
 1. [1.5x DP5S] ~100 FE Improve random affixes on Hero Memories
+    - If you get T1 Fire Crit, keep it, we'll be going BB soon
 
 1. [1.5x DP5S] Buy a Dawn breaker & blend it for +1 attack skill
 

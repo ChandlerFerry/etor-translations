@@ -78,3 +78,4 @@
 3. Cloudgatherer - Sky (24% Ember + 8% @ 5)
 4. Happy Chonky (26% Fuel)
 5. Idling Weasel - Cherry Blossom (20% Ember)
+

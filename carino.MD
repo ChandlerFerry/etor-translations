@@ -56,12 +56,12 @@ Farm i86 weapon and craft 4-6 T1 mods
 - False God's Skin
 - 6x T1 Gear
 
-- Trinity Chestpiece
-- 
+Deal enough damage? - Speed Phantom + Magic Dash + Cooldown Reduction + Mass Effect
+Need damage? - Burst of Anger - Well-Fought Battle
 
 ### Traveler 8 @ 10b DP5S (30b preferred)
 
-### Profound - ArcanaJack
+### Profound - ArcanaJack (100-200b DP5S)
 
 ### Deep Space - Overrealm
 
@@ -158,6 +158,52 @@ Random Affixes - Crit Strike Damage > Crit Strike rating > Attack and Cast Speed
 1. 
 
 ### Slates
+- **+1 Attack skill level**
+- +1 to all skill levels (max 1)
+- Gain stack of agi blessing when using mobility
+- Restore 3% life on defeat
+- Restores 3% es on defeat
+- Penetrating
+- +10% additional base damage for 2h
+- 40% attack critrating while 2h
+- Attack crit strike rating
+- Crit strike damage-
+- 60% damage while standing still
+- Upon dealing damage to cursed, paralyze
+- Survival Will
+- +1 to max focus blessing stacks
+- Immune to trauma
+- Immune to numbed
+- Immune to ignite
+- Fluke
+
+#### Pedigree
+
+#### Corner/Starlight
+
+#### Non-Legendary (Goddess of Knowledge)
+Used early for pushing, change it to corners/starlights later
+- Restores 3% es on defeat
+
+### Skills
+1. Lightning Shot: Crossed Lightning (Noble)
+2. Lightning Shot: Offshoot (Magnificent)
+3. Precise: Precise Projectiles
+4. Precise: Rejuvenation
+
+#### BB swap
+1. Blazing Bullet: Dual Resonance (Noble) **REQUIRED**
+1. Blazing Bullet: Fiery Blast (Magnificent) **REQUIRED**
+1. Precise: Elemental Resistance
+1. Precise: Steadfast
+1. Precise: Energy Fortress
+1. 4x Precise: Stand as One
+
+### Prism
+1. Ethereal Prism: Sweeping Fury
+    - Resistance
+    - ?
+
 
 ## [Poogf](https://www.twitch.tv/poogf01) S11 Codes
 

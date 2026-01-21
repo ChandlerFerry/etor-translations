@@ -90,6 +90,7 @@ Need damage? - Burst of Anger - Well-Fought Battle
 1. i70-i81 crafted 3 mod that gives damage to get into T7
 2. i82 Dex/Damage/Life/3x Res
 3. Dawn Breaker (Dex/Str, Dex better until BB)
+    - Blend to +1 Attack Skill
 4. Eternity
 
 ### Rings
@@ -129,19 +130,16 @@ Need damage? - Burst of Anger - Well-Fought Battle
 1. i82 weapon with enough t2 mods to get to t8 DP5S calc
 1. i86 weapon with enough t1 mods to farm t8 comfortably
     - Dream it for some easy DP5S
-1. Priceless Weapon with Elemental Damage to the gear mod + whatever you can get
-    - 16.38% chance to hit @ 2 ultimate embers each
-    - Prefix: Elemental Damage to the Gear / Dex / Proj Damage
-    - Suffix: Crit Damage / Elemental Damage / Gear attack speed
-    - Dream weapon for anything
-    - Sequence weapon for anything
+1. Priceless Weapon with `Elemental Damage to the gear mod + whatever you can get` if it exists cheap on the market
+    - Craft quickly to prepare for trinity, is quite easy to beat the t1 weapon
 1. Priceless Weapon with good Base Stat
+    - 16.38% chance to hit @ 2 ultimate embers each `Elemental Damage to the gear mod + whatever you can get`
     - Base Stat: +2 Projectile > +2 Horizontal Projectile penetration > Any damage/crit rolls
     - T1 Elemental Damage to the gear mod + whatever you can get
     - Prefix: Elemental Damage to the Gear / Dex / Proj Damage
     - Suffix: Crit Damage / Elemental Damage / Gear attack speed
-    - Dream weapon for +1 proj
-    - Sequence weapon for 16% all stat?
+    - Dream weapon for +1 proj (anything)
+    - Sequence weapon for 16% all stat?  (anything)
 
 ### Hero Memories
 Random Affixes - Crit Strike Damage > Crit Strike rating > Attack and Cast Speed > Max ES%
@@ -155,7 +153,6 @@ Random Affixes - Crit Strike Damage > Crit Strike rating > Attack and Cast Speed
 
 #### Memory of Progress Fixed Affixes
 1. Base Stat Projectile Speed & Damage/Crit/Crit Rating
-1. 
 
 ### Slates
 - **+1 Attack skill level**

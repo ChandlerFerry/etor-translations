@@ -46,7 +46,7 @@ Replace & start upgrading your hero memories
 *Start Sand village*
 Farm i82 bases and craft 4-6x T2 mods
 Blend your belt
-Dream your ?
+Dream your weapona & rings
 Replace hero memories with level 40 epics
 
 ### Traveler 7 @ 100m DP5S (300m preferred)
@@ -62,7 +62,7 @@ Need damage? - Burst of Anger - Well-Fought Battle
 
 
 #### Pushing to 200b DP5S for Profound
-1. ~20 FE Better false god's idol is ~55%
+1. [1.4x DP5S] ~20 FE Better false god's idol
 
 1. [5x DP5S] ~225 FE get proj speed hero memories with other mods
     - Makes blind helmet useful
@@ -81,10 +81,14 @@ Need damage? - Burst of Anger - Well-Fought Battle
     - DPS is significant worse if you neglect this
     - Equip `Precise:Elemental Resistance` if needed to fix res
 
-1. Ethereal Prism: Sweeping Fury
+1. [1.1X DP5S] Improve Ethereal Prism: Sweeping Fury
     - Get a Res affix on this to assist with the Trinity damage
 
-1. Cheap 2-mod slates
+1. [1.1X DP5S] Dream your rings for Res for Trinity
+
+1. ~250 FE Cheap 2-mod slates
+    - 2-3 Defensive mods (3% life regain, 3% es regain, Survival)
+    - Rest damage
 
 1. ~800 FE Heart of the Storm, is ~30% upgrade from the gods (maybe more depending on multis)
 

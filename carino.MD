@@ -43,6 +43,7 @@ If you haven't met the T7 Entry DP5S, craft an i78 item
 Replace & start upgrading your hero memories
 
 ### T7 - CubeSail (? DP5S)
+*Start Sand village*
 Farm i82 bases and craft 4-6x T2 mods
 Blend your belt
 Dream your ?
@@ -241,3 +242,9 @@ BB3: AY5qxvXqEfCsnQAAAAAAmA==
 BB4: t0tjYPZ+EfCLrwAAAAAAog==
 
 
+
+## End Notes - Vorax
+Look into for early Vorax
+1. Wriggling Tango
+1. Fleeting Sky
+1. ?

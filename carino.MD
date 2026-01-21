@@ -84,17 +84,17 @@ Need damage? - Burst of Anger - Well-Fought Battle
 1. [1.1X DP5S] Improve Ethereal Prism: Sweeping Fury
     - Get a Res affix on this to assist with the Trinity damage
 
-1. [1.1X DP5S] Dream your rings for Res for Trinity
+1. [1.1X DP5S] ~60 FE Dream your rings for Res or another useful stat for Trinity
 
 1. ~250 FE Cheap 2-mod slates
     - 2-3 Defensive mods (3% life regain, 3% es regain, Survival)
     - Rest damage
 
+1. ~1000 FE make a real priceless weapon
+
 1. ~800 FE Heart of the Storm, is ~30% upgrade from the gods (maybe more depending on multis)
 
 1. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
-
-1. ~1000 FE make a real priceless weapon
 
 1. ~800 FE make a priceless ring?
 

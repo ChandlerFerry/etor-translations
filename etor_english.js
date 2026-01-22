@@ -140,7 +140,7 @@ const uiTranslations = {
     "取消": "Cancel",
     "确认": "Confirm",
     "暂无数据": "No Data",
-    "暂无": "None",
+    "暂无物品": "No Items",
     "平均": "Average",
     "分钟": "min",
     "赛季": "Season",

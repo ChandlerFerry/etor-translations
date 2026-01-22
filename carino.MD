@@ -70,6 +70,7 @@ Need damage? - Burst of Anger - Well-Fought Battle
 
 1. [2x DP5S] ~600 FE Death's Touch for 2x damage
     - Corrupt for a 30% chance at even more damage
+    - If you fail the corrupt to remove 500 max crit cap, take off Fire Magus for Precise: Elemental Resistance
 
 1. [1.5x DP5S] ~100 FE Improve random affixes on Hero Memories
     - If you get T1 Fire Crit, keep it, we'll be going BB soon
@@ -166,6 +167,8 @@ Debuffs we are trying to maintain:
 
 ### Gloves
 1. Damage/Attack Speed/Crit Damage
+2. Death's Touch
+    - If you fail the corrupt, take off Fire Magus for Precise: Elemental Resistance
 2. Death's Touch corrupted
     - 500 max Crit Rating needs to be changed to +25 attack and spell crit rating
 
@@ -272,6 +275,31 @@ Used early for pushing, change it to corners/starlights later
 1. Ethereal Prism: Sweeping Fury
     - Resistance
     - ?
+
+### Kismet
+ES, resists 
+star chasing arrow, sky piercer 
+10x sealed mana comp + 3x star trail, immune to CC, +1 focus
+hunter's hand
+reduced curse effect, non erosion damage as erosion damage
+
+Smalls
+- [SMALL] Kitty1&2 Fire/Cold/Lightning res for trinity
+- [SMALL] Flower4 Fire/Cold/Lightning res for trinity
+
+Medium
+- [MEDIUM] Kitty3 Pale Fox (Focus Blessing)
+
+Undetermined
+- Add 4 micro destiny slot
+
+Profound/Deep Space
+- [Undetermined] Add 1 medium destiny slot + Bird in a Pond (immune to CC)
+- [Undetermined] Add 1 medium destiny slot + Bird in a Pond (immune to CC)
+
+Lone Walker's Boots
+- [SMALL] IRON LION sealed mana compensation on iron lion
+- [MEDIUM] IRON LION 45% medium effects of micro fates in the same pact branch
 
 
 ## [Poogf](https://www.twitch.tv/poogf01) S11 Codes

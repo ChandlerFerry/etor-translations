@@ -12,9 +12,10 @@ However, it is in Chinese.
 3. Console Tab
 4. Type `allow pasting` and press enter
 5. Paste the data from [etor_english.js](./etor_english.js) & press enter
+6. Close the console
 
-### Before:
-![alt text](before.png)
+### Before
+![alt text](./loot_tracker/before.png)
 
 ### After
-![alt text](after.png)
+![alt text](./loot_tracker/after.png)

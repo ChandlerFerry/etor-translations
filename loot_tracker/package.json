@@ -1,0 +1,17 @@
+{
+  "name": "tlidb-translator",
+  "version": "1.0.0",
+  "description": "Translation system for Torchlight Infinite DB - CN/EN",
+  "main": "translate.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-translations.js",
+    "translate": "node scripts/translate.js"
+  },
+  "keywords": [
+    "torchlight-infinite",
+    "translation",
+    "tlidb"
+  ],
+  "license": "MIT"
+}

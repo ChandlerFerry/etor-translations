@@ -102,6 +102,7 @@ const uiTranslations = {
     "物品": "Items",
     "扣税": "After Tax",
     "实际": "Actual",
+    "拾取历史": "Loot History",
     "拾取": "Loot",
     "成本": "Cost",
     "收益": "Profit",

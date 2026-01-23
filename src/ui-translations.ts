@@ -45,7 +45,9 @@ const enTranslations: Record<string, string> = {
     "当前利/拾/本": "Profit/Looted/Mapcost",
     "总计地图效率": "Overall Efficiency",
     "易火记录中:S11赛季": "Tracking: S11Season",
-    
+    "未知惊喜": "Unknown Loot",
+    "未知": "Unknown",
+
 
 
 

@@ -49,7 +49,7 @@ jobs:
           message: 'chore: update translations from TLIDB'
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
-          add: 'src/translations.json etor-english-script.js'
+          add: 'src/translations.js etor-english-script.js'
           push: false
 
       - name: Bump patch version and push

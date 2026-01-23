@@ -13,14 +13,30 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const srcDir = join(__dirname, '..');
 
-const translationsPath = join(srcDir, 'translations.json');
+const translationsPath = join(srcDir, 'translations.js');
 
 if (!existsSync(translationsPath)) {
-  console.error('Error: translations.json not found. Run "npm run build" first.');
+  console.error('Error: translations.js not found. Run "npm run build" first.');
   process.exit(1);
 }
 
-const cnToEn: TranslationDictionary = JSON.parse(readFileSync(translationsPath, 'utf-8'));
+// Parse the JavaScript file to extract itemNames object
+const translationsContent = readFileSync(translationsPath, 'utf-8');
+const match = translationsContent.match(/const itemNames = \{([\s\S]*)\};/);
+if (!match) {
+  console.error('Error: Could not parse translations.js');
+  process.exit(1);
+}
+
+// Parse the object content
+const cnToEn: TranslationDictionary = {};
+const objectContent = match[1];
+const lineRegex = /^\s*"([^"]+)":\s*"([^"]+)"/gm;
+let lineMatch: RegExpExecArray | null;
+
+while ((lineMatch = lineRegex.exec(objectContent)) !== null) {
+  cnToEn[lineMatch[1]] = lineMatch[2];
+}
 
 const enToCn: TranslationDictionary = Object.fromEntries(
   Object.entries(cnToEn).map(([cn, en]) => [en, cn])

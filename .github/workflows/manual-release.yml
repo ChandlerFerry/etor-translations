@@ -1,20 +1,17 @@
-# Updates translations daily from TLIDB and commits changes to the repository
-name: Update Translations
+name: Manual Release
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.repository }}-update-translations
+  group: ${{ github.repository }}-manual-release
   cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  update-translations:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,24 +29,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Pull translations and build script
-        run: npm run pull
-
       - name: Build release zip
         run: npm run release
 
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        id: commit
-        with:
-          message: 'chore: update translations from TLIDB'
-          author_name: github-actions[bot]
-          author_email: github-actions[bot]@users.noreply.github.com
-          add: 'src/translations.js etor-english-script.js'
-          push: false
-
       - name: Bump patch version and push
-        if: steps.commit.outputs.committed == 'true'
         id: version
         shell: bash
         run: |
@@ -65,15 +48,14 @@ jobs:
           git push --tags
 
       - name: Create GitHub Release
-        if: steps.commit.outputs.committed == 'true'
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v${{ steps.version.outputs.new_version }}
           name: Release v${{ steps.version.outputs.new_version }}
           body: |
-            Automated translation update from TLIDB
+            Manual release
 
-            - Updated translations from TLIDB API
+            - Release build with current translations
           files: |
             etor-english-script.js
             build/etor-english.zip

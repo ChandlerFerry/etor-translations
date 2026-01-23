@@ -12,7 +12,8 @@
     "build-script": "tsx src/scripts/build-script.ts",
     "translate": "tsx src/scripts/translate.ts",
     "pull": "npm run build && npm run build-script",
-    "release": "tsx src/scripts/release.ts"
+    "release": "tsx src/scripts/release.ts",
+    "inject-shell-blocker": "tsx src/scripts/inject-shell-blocker.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.10",

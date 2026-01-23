@@ -1,9 +1,10 @@
 import { execSync } from 'child_process';
-import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync, copyFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import sevenZip from '7zip-min';
 import { transform } from 'esbuild';
+import { injectShellBlockerToFile } from './inject-shell-blocker-lib.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -113,6 +114,12 @@ async function injectScript(lang: Language) {
   console.log('Script injected successfully');
 }
 
+function injectShellBlockerToPreload() {
+  console.log('Injecting shell blocker into preload.js...');
+  injectShellBlockerToFile(join(appDir, 'build', 'obf-app', 'preload.js'), false);
+  console.log('Shell blocker injected successfully');
+}
+
 function repackAsar() {
   rmSync(asarPath);
   run(`npx @electron/asar pack "${appDir}" "${asarPath}"`, rootDir);
@@ -143,6 +150,7 @@ async function buildLanguage(lang: Language, archivePath: string): Promise<strin
   await extractArchive(archivePath);
   extractAsar();
   await injectScript(lang);
+  injectShellBlockerToPreload();
   repackAsar();
   return await createZip(lang);
 }

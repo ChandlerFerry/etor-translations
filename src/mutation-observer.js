@@ -1,10 +1,15 @@
+const allTranslations = { ...databaseData, ...uiTranslations };
+const sortedTranslations = Object.entries(allTranslations)
+  .sort((a, b) => b[0].length - a[0].length)
+  .map(([chinese, english]) => ({
+    pattern: new RegExp(chinese.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'),
+    english
+  }));
+
 function translateText(text) {
   let result = text;
-  const allTranslations = { ...databaseData, ...uiTranslations };
-  // Sort by length descending to match longer phrases first
-  const sortedEntries = Object.entries(allTranslations).sort((a, b) => b[0].length - a[0].length);
-  for (const [chinese, english] of sortedEntries) {
-    result = result.replace(new RegExp(chinese, 'g'), english);
+  for (const { pattern, english } of sortedTranslations) {
+    result = result.replace(pattern, english);
   }
   return result;
 }
@@ -16,20 +21,16 @@ function translateElement(element) {
     null,
     false
   );
-  
-  const textNodes = [];
-  while (walker.nextNode()) {
-    textNodes.push(walker.currentNode);
-  }
-  
-  textNodes.forEach(node => {
+
+  let node;
+  while ((node = walker.nextNode())) {
     const original = node.textContent;
     const translated = translateText(original);
     if (original !== translated) {
       node.textContent = translated;
     }
-  });
-  
+  }
+
   element.querySelectorAll('[title]').forEach(el => {
     const original = el.title;
     const translated = translateText(original);
@@ -37,7 +38,7 @@ function translateElement(element) {
       el.title = translated;
     }
   });
-  
+
   element.querySelectorAll('[placeholder]').forEach(el => {
     const original = el.placeholder;
     const translated = translateText(original);
@@ -47,30 +48,50 @@ function translateElement(element) {
   });
 }
 
+// Debounced translation queue
+let pendingNodes = new Set();
+let rafId = null;
+
+function queueTranslation(node) {
+  pendingNodes.add(node);
+  if (!rafId) {
+    rafId = requestAnimationFrame(processPendingTranslations);
+  }
+}
+
+function processPendingTranslations() {
+  rafId = null;
+  const nodes = pendingNodes;
+  pendingNodes = new Set();
+
+  for (const node of nodes) {
+    if (!document.contains(node)) continue;
+
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      translateElement(node);
+    } else if (node.nodeType === Node.TEXT_NODE) {
+      const original = node.textContent;
+      const translated = translateText(original);
+      if (original !== translated) {
+        node.textContent = translated;
+      }
+    }
+  }
+}
+
 // Initial translation
 translateElement(document.body);
 
 // MutationObserver for dynamic content
 const observer = new MutationObserver((mutations) => {
-  mutations.forEach(mutation => {
-    mutation.addedNodes.forEach(node => {
-      if (node.nodeType === Node.ELEMENT_NODE) {
-        translateElement(node);
-      } else if (node.nodeType === Node.TEXT_NODE) {
-        const translated = translateText(node.textContent);
-        if (node.textContent !== translated) {
-          node.textContent = translated;
-        }
-      }
-    });
-    
-    if (mutation.type === 'characterData') {
-      const translated = translateText(mutation.target.textContent);
-      if (mutation.target.textContent !== translated) {
-        mutation.target.textContent = translated;
-      }
+  for (const mutation of mutations) {
+    for (const node of mutation.addedNodes) {
+      queueTranslation(node);
     }
-  });
+    if (mutation.type === 'characterData') {
+      queueTranslation(mutation.target);
+    }
+  }
 });
 
 observer.observe(document.body, {

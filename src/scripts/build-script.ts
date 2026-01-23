@@ -1,3 +1,4 @@
+// Simple build script, will be replaced with ESBuild once we have more complex needs such as multi-language builds
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -7,7 +8,6 @@ const __dirname = dirname(__filename);
 const srcDir = join(__dirname, '..');
 const rootDir = join(__dirname, '../..');
 
-// Read the three source files
 const uiTranslationsPath = join(srcDir, 'ui-translations.js');
 const translationsPath = join(srcDir, 'translations.js');
 const mutationObserverPath = join(srcDir, 'mutation-observer.js');
@@ -21,19 +21,14 @@ console.log(`  - ui-translations.js (${uiTranslations.length} chars)`);
 console.log(`  - translations.js (${translations.length} chars)`);
 console.log(`  - mutation-observer.js (${mutationObserver.length} chars)`);
 
-// Combine all parts
 const finalScript = [
-  '// UI Translations',
   uiTranslations.trim(),
   '',
-  '// Item Names from TLIDB',
   translations.trim(),
   '',
-  '// Translation Logic and Mutation Observer',
   mutationObserver.trim()
 ].join('\n');
 
-// Write to output file
 const outputPath = join(rootDir, 'etor-english-script.js');
 writeFileSync(outputPath, finalScript, 'utf-8');
 

@@ -31,6 +31,3 @@ const finalScript = [
 
 const outputPath = join(rootDir, 'etor-english-script.js');
 writeFileSync(outputPath, finalScript, 'utf-8');
-
-console.log(`\nSuccessfully built: etor-english-script.js`);
-console.log(`Total size: ${finalScript.length} characters`);

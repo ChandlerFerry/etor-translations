@@ -7,9 +7,11 @@
     "build": "tsx src/scripts/build-translations.ts",
     "build-script": "tsx src/scripts/build-script.ts",
     "translate": "tsx src/scripts/translate.ts",
-    "pull": "npm run build && npm run build-script"
+    "pull": "npm run build && npm run build-script",
+    "release": "tsx src/scripts/release.ts"
   },
   "devDependencies": {
+    "7zip-min": "^2.1.0",
     "@types/node": "^25.0.10",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"

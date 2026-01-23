@@ -19,10 +19,10 @@ This method requires you to have the [original ETOR application](./docs/etor-faq
 1. Open ETOR and press `Ctrl+Shift+I` to open the developer console.
 2. In the console, type `allow pasting` and press Enter.
 3. Copy the entire content of one of the language files below and paste it into the console, then press Enter.
-    - [etor-english.js](./etor-english.js)
-    - [etor-japanese.js](./etor-japanese.js)
-    - [etor-korean.js](./etor-korean.js)
-    - [etor-russian.js](./etor-russian.js)
+    - [etor-english.js](https://raw.githubusercontent.com/ChandlerFerry/etor-translations/refs/heads/main/etor-english.js)
+    - [etor-japanese.js](https://raw.githubusercontent.com/ChandlerFerry/etor-translations/refs/heads/main/etor-japanese.js)
+    - [etor-korean.js](https://raw.githubusercontent.com/ChandlerFerry/etor-translations/refs/heads/main/etor-korean.js)
+    - [etor-russian.js](https://raw.githubusercontent.com/ChandlerFerry/etor-translations/refs/heads/main/etor-russian.js)
 4. Close the console.
 
 ## Showcase

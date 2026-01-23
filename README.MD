@@ -2,33 +2,47 @@
 # ETOR Translations for Torchlight Infinite (Loot Tracker, Price History, Leaderboards, etc.)
 [Donate @ Ko-fi](https://ko-fi.com/deafwave)
 
+[Releases](https://github.com/ChandlerFerry/torchlight-infinite-guides/releases)
+
 # ETOR
 
 [FAQ](./docs/etor-faq.MD)
 
-### Enable Logging (once per game session)
-1. Open Torchlight
-2. Settings -> Other -> Enable Log
-3. Return to Login Screen
-4. Log into the character
+### Method 1: Pre-built (Recommended)
+1. Go to [Releases](https://github.com/ChandlerFerry/torchlight-infinite-guides/releases)
+2. Download and unzip the latest release.
+3. Run the executable.
 
-### English
-1. Open ETOR
-2. Ctrl+Shift+I
-3. Console Tab
-4. Type `allow pasting` and press enter
-5. Paste the data from [etor-english.js](etor-english.js) & press enter
-6. Close the console
+Builds are automated via [GitHub Actions](https://github.com/ChandlerFerry/torchlight-infinite-guides/actions).
 
-### Before
-![alt text](./docs/before.png)
+### Method 2: Manual
+This method requires you to have the [original ETOR application](./docs/etor-faq.MD#where-can-i-download-the-original-etor).
 
-### After
-![alt text](./docs/after.png)
+1. Open ETOR and press `Ctrl+Shift+I` to open the developer console.
+2. In the console, type `allow pasting` and press Enter.
+3. Copy the entire content of one of the language files below and paste it into the console, then press Enter.
+    - [etor-english.js](./etor-english.js)
+    - [etor-japanese.js](./etor-japanese.js)
+    - [etor-korean.js](./etor-korean.js)
+    - [etor-russian.js](./etor-russian.js)
+4. Close the console.
 
+## Showcase
 
-## Other Guides
+<details>
+<summary><b>Click to see screenshots of what we are capable of</b></summary>
 
-- [Carino Step-By-Step Build Guide](./docs/guides/carino.MD) (WIP)
-- [Tiered Strategies](./docs/guides/strategies_tiered.MD) (WIP)
-- [Pet Auto Switch Groups](./docs/guides/pet_auto_switch_groups.MD) (WIP)
+| Overview | Items |
+|---|---|
+| ![Overview](./docs/main.png)| ![Items](./docs/items.png)|
+| **History** | **Price Fluctuation** |
+| ![History](./docs/history.png)| ![Price Fluctuation](./docs/pricedatabase.png)
+| **Leaderboard** | **Mini Window** |
+| ![Leaderboard](./docs/strategy-leaderboard.png)| ![Mini Window](./docs/mini.png) |
+
+</details>
+
+## Other Guides (WIP)
+- [Carino Step-By-Step Build Guide](./docs/guides/carino.MD)
+- [Tiered Strategies](./docs/guides/strategies_tiered.MD)
+- [Pet Auto Switch Groups](./docs/guides/pet_auto_switch_groups.MD)

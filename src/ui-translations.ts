@@ -127,7 +127,7 @@ const enTranslations: Record<string, string> = {
     "综合评分": "Overall Score",
     "数据分析": "Strategy Analysis",
     "物价波动": "Price Fluctuation",
-    "刷New": "Refresh",
+    "刷新": "Refresh",
     "当前均价": "Avg Price",
     "被动技能": "Passive Skills",
     "辅助技能": "Support Skills",

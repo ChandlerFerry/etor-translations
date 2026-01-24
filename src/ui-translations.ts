@@ -4,7 +4,22 @@
 //     aaa[chinese] = english;
 // }
 
+const enPatchNotes: Record<string, string> = {
+    "更新日志": "Changelog",
+    "更新内容": "Update",
+    "画雪支持成本记录": "Added cost item tracking for Snowpaper",
+    "小窗和极简模式调整": "Mini Window and Minimal Mode Adjustments",
+    "由于日志原因，棱镜无法区分稀有度，改为默认更新紫色价格": "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates",
+    "调整界面布局，优化数据重置逻辑": "Adjusted UI layout and optimized data reset logic",
+    "修复桌宠禁用仍显示成本推送的问题": "Fixed issue where notification pet would still show cost alerts when disabled",
+    "优化设置界面内容项": "Optimized settings UI content items",
+    "优化历史记录模块": "Optimized history module",
+    "小窗桌宠新增成本余量提醒": "Mini window notification pet added cost balance reminder",
+    "新增桌宠形象以及支持自定义": "Added notification pet images and support for customization"
+}
+
 const enTranslations: Record<string, string> = {
+    ...enPatchNotes,
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character",
     "先在游戏设置内点击开启日志，然后重新选择角色进入游戏": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character",
     "调整极简模式下的文字大小（70% - 180%）": "Adjust the font size in Mini Window mode (70% - 180%)",
@@ -163,7 +178,6 @@ const enTranslations: Record<string, string> = {
     "棱镜校尺": "Prism Gauge",
     "收益趋势": "Profit Trend",
     "触媒技能": "Activation Medium Skills",
-    "拾取历史": "Loot History",
     "死亡次数": "Maps ran",
     "确认操作": "Confirm Action (Deletion?)",
     "暂无数据": "No Data",

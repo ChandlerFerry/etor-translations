@@ -1,15 +1,14 @@
 // The website has a qe.settings.language that converts a few words from Chinese to English.
 // However, this is not accessible from the global scope at this time, and passing a queryParam nor changing the local settings.json work either
 
-
 // const y = Object.entries(x).sort((a, b) => b[0].length - a[0].length);
 // const aaa = {};
 // for (const [chinese, english] of y) {
 //     aaa[chinese] = english;
 // }
 
-type Lang = "en" | "ko" | "ja" | "ru";
-type Translations = Record<string, { en: string } & Partial<Record<Exclude<Lang, "en">, string>>>;
+import { atlasTalentTranslations } from "./atlas-talents"
+import { Lang, Translations } from "./translations.types"
 
 const patchNotes: Translations = {
     "更新日志": {
@@ -139,6 +138,7 @@ const notificationPetTranslations: Translations = {
         en: " left, please replenish!"
     }
 }
+
 const seasonTranslations: Translations = {
     "永久": {
         en: "Standard"
@@ -153,14 +153,66 @@ const seasonTranslations: Translations = {
         en: "S11 SC"
     }
 }
-const uiTranslations: Translations = {
-    // Brute force
+
+// Brute force - replace this with regex
+const tempBruteForceTranslations: Translations = {
+    "等1种": {
+        en: "+1"
+    },
+    "等2种": {
+        en: "+2"
+    },
+    "等3种": {
+        en: "+3"
+    },
+    "等4种": {
+        en: "+4"
+    },
+    "等5种": {
+        en: "+5"
+    },
+    "等6种": {
+        en: "+6"
+    },
+    "等7种": {
+        en: "+7"
+    },
     "等8种": {
         en: "+8"
+    },
+    "等9种": {
+        en: "+9"
+    },
+    "等1个": {
+        en: "+1"
+    },
+    "等2个": {
+        en: "+2"
     },
     "等3个": {
         en: "+3"
     },
+    "等4个": {
+        en: "+4"
+    },
+    "等5个": {
+        en: "+5"
+    },
+    "等6个": {
+        en: "+6"
+    },
+    "等7个": {
+        en: "+7"
+    },
+    "等8个": {
+        en: "+8"
+    },
+    "等9个": {
+        en: "+9"
+    },
+}
+const uiTranslations: Translations = {
+
     "万界": {
         en: "Rift of Dimensions"
     },
@@ -1226,7 +1278,7 @@ const uiTranslations: Translations = {
 
 const buildLangMap = (lang: Lang): Record<string, string> => {
     const result: Record<string, string> = {};
-    for (const [key, value] of Object.entries({ ...characterClassTranslations, ...notificationPetTranslations, ...patchNotes, ...seasonTranslations, ...uiTranslations })) {
+    for (const [key, value] of Object.entries({ ...atlasTalentTranslations,...tempBruteForceTranslations, ...characterClassTranslations, ...notificationPetTranslations, ...patchNotes, ...seasonTranslations, ...uiTranslations })) {
         result[key] = value[lang] ?? value.en;
     }
     return result;

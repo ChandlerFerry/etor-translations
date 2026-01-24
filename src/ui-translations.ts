@@ -205,6 +205,18 @@ const tempBruteForceTranslations: Translations = {
     },
 }
 const uiTranslations: Translations = {
+    "搜索物品名称": {
+        en: "Search item name(CN)"
+    },
+    "最低价格": {
+        en: "Min Price"
+    },
+    "最高价格": {
+        en: "Max Price"
+    },
+    "暂无价格数据": {
+        en: "No price data available"
+    },
     "记录状态异常！！！请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏！！": {
       en: "Error! Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character!!"  
     },
@@ -802,7 +814,7 @@ const uiTranslations: Translations = {
         en: "Price Filter"
     },
     "搜索物品": {
-        en: "Search items"
+        en: "Search Items(CN)"
     },
     "更新时间": {
         en: "Updated"

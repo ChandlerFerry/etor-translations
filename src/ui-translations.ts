@@ -208,6 +208,9 @@ const uiTranslations: Translations = {
     "搜索物品名称": {
         en: "Search item name(CN)"
     },
+    "渴瘾症": {
+        en: "Vorax Theater"
+    },
     "最低价格": {
         en: "Min Price"
     },
@@ -602,6 +605,9 @@ const uiTranslations: Translations = {
     },
     "显示设置": {
         en: "Display Settings"
+    },
+    "毛利": {
+        en: "Before Tax"
     },
     "扣税显示": {
         en: "After Tax"

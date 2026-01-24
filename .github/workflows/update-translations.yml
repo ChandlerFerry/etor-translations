@@ -68,6 +68,7 @@ jobs:
 
       - name: Create GitHub Release
         if: steps.commit.outputs.committed == 'true'
+        id: create_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.new_version }}
@@ -83,3 +84,7 @@ jobs:
             build/etor-russian.zip
           draft: true
           prerelease: false
+
+      # - uses: eregon/publish-release@v1
+      #   with:
+      #     release_id: ${{ steps.create_release.outputs.id }}

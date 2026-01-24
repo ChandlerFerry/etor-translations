@@ -956,19 +956,19 @@ export const atlasTalentTranslations: Translations = {
         en: "In Netherrealm stages, when Lucky Supplies trigger during the Hijacking Operation, there is a 10% chance to trigger an additional time"
     },
     "异界关卡中，劫车行动中掉落的元件更可能是拓展元件": {
-        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Components"
+        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Mods"
     },
     "异界关卡中，劫车行动中掉落的元件更可能是拓展元件-近卫": {
-        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Component - Guard"
+        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Mod - Vanguard"
     },
     "异界关卡中，劫车行动中掉落的元件更可能是拓展元件-狙击": {
-        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Component - Sniper"
+        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Mod - Sniper"
     },
     "异界关卡中，劫车行动中掉落的元件更可能是拓展元件-术士": {
-        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Component - Sorcerer"
+        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Mod - Warlock"
     },
     "异界关卡中，劫车行动中掉落的元件更可能是拓展元件-重装": {
-        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Component - Heavy"
+        en: "In Netherrealm stages, Components dropped during Hijacking Operations are more likely to be Expansion Mod - Tank"
     },
     "异界关卡中，巨力之神试炼 +1% 掉落数量": {
         en: "In Netherrealm stages, Trial: God of Might has +1% Drop Quantity"

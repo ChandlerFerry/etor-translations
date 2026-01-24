@@ -1,9 +1,12 @@
-# Updates translations daily from TLIDB and commits changes to the repository
+# Updates translations from TLIDB and creates releases
 name: Update Translations
 
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    paths:
+      - 'src/ui-translations.ts'
 
 concurrency:
   group: ${{ github.repository }}-update-translations
@@ -41,7 +44,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         id: commit
         with:
-          message: 'chore: update translations from TLIDB'
+          message: 'chore: update translations'
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
           add: '.'
@@ -70,9 +73,9 @@ jobs:
           tag_name: v${{ steps.version.outputs.new_version }}
           name: Release v${{ steps.version.outputs.new_version }}
           body: |
-            Automated translation update from TLIDB
+            Translation update
 
-            - Updated translations from TLIDB API
+            - Updated translations and UI
           files: |
             build/etor-english.zip
             build/etor-japanese.zip

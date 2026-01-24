@@ -4,6 +4,18 @@ import { atlasTalentTranslations } from "./atlas-talents"
 import { Lang, Translations } from "./translations.types"
 
 const patchNotes: Translations = {
+    "天赋树": {
+        en: "Constellation"
+    },
+    "机械":{
+        en: "Machine"
+    },
+    "画雪": {
+        en: "Snowpaper"
+    },
+    "狩猎": {
+        en: "Hunting"
+    },
     "征战": {
         en: "War"
     },
@@ -224,7 +236,7 @@ const uiTranslations: Translations = {
         en: "Vorax Theater"
     },
     "大亨": {
-        en: "Sandlord Oasis"
+        en: "Sandlord"
     },
     "最低价格": {
         en: "Min Price"

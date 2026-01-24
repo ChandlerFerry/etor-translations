@@ -18178,6 +18178,18 @@
     }
   };
   var uiTranslations = {
+    "\u641C\u7D22\u7269\u54C1\u540D\u79F0": {
+      en: "Search item name(CN)"
+    },
+    "\u6700\u4F4E\u4EF7\u683C": {
+      en: "Min Price"
+    },
+    "\u6700\u9AD8\u4EF7\u683C": {
+      en: "Max Price"
+    },
+    "\u6682\u65E0\u4EF7\u683C\u6570\u636E": {
+      en: "No price data available"
+    },
     "\u8BB0\u5F55\u72B6\u6001\u5F02\u5E38\uFF01\uFF01\uFF01\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F\uFF01\uFF01": {
       en: 'Error! Please "Enable Log" in "Settings -> Other" then sort your backpack, or reselect your character!!'
     },
@@ -18774,7 +18786,7 @@
       en: "Price Filter"
     },
     "\u641C\u7D22\u7269\u54C1": {
-      en: "Search items"
+      en: "Search Items(CN)"
     },
     "\u66F4\u65B0\u65F6\u95F4": {
       en: "Updated"
@@ -18993,7 +19005,7 @@
       en: "Kismet"
     },
     "\u672A\u77E5": {
-      en: "Unknown|||"
+      en: "Unknown"
     },
     "\u8BBE\u7F6E": {
       en: "Settings"

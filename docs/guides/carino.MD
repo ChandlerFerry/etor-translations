@@ -75,7 +75,7 @@ Need damage? - Burst of Anger - Well-Fought Battle
 1. [1.5x DP5S] ~100 FE Improve random affixes on Hero Memories
     - If you get T1 Fire Crit, keep it, we'll be going BB soon
 
-1. [1.5x DP5S] Buy a Dawn breaker & blend it for +1 attack skill
+1. [1.6x DP5S] Buy a Dawn breaker & blend it for +1 attack skill
 
 1. [1x-3x DP5S] ~1000 FE `Trinity` chest
     - This chestpiece requires you to balance Lightning/Cold/Fire res
@@ -143,7 +143,7 @@ Debuffs we are trying to maintain:
 1. i70-i81 crafted 3 mod that gives damage to get into T7
 2. i82 Dex/Damage/Life/3x Res
 3. Dawn Breaker (Dex/Str, Dex better until BB)
-    - Blend to +1 Attack Skill
+    - [1.1x DP5S] Blend to +1 Attack Skill (3 sage, 1 silver mound, 3 gloomy)
 4. Eternity
 
 ### Rings

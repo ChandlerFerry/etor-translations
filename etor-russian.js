@@ -17982,6 +17982,9 @@
 
   // src/ui-translations.ts
   var patchNotes = {
+    "\u5728\u5404\u4E2A\u6A21\u5757\u4E2D\u6DFB\u52A0\u6839\u636EItemsType\u7684\u4EF7\u503C\u5206\u5E03\u56FE": {
+      en: "Added value distribution charts by ItemsType in various modules"
+    },
     "\u66F4\u65B0\u65E5\u5FD7": {
       en: "Changelog"
     },
@@ -18197,7 +18200,7 @@
       en: "No price data available"
     },
     "\u8BB0\u5F55\u72B6\u6001\u5F02\u5E38\uFF01\uFF01\uFF01\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F\uFF01\uFF01": {
-      en: 'Error! Please "Enable Log" in "Settings -> Other" then sort your backpack, or reselect your character!!'
+      en: 'Error! Please "Enable Log" in "Settings -> Other" then reselect your character!!'
     },
     "\u4E07\u754C": {
       en: "Rift of Dimensions"
@@ -18288,13 +18291,13 @@
       en: "Mode"
     },
     "\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your backpack, or reselect your character'
+      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
     "\u7531\u4E8E\u65E5\u5FD7\u539F\u56E0\uFF0C\u68F1\u955C\u65E0\u6CD5\u533A\u5206\u7A00\u6709\u5EA6\uFF0C\u6539\u4E3A\u9ED8\u8BA4\u66F4\u65B0\u7D2B\u8272\u4EF7\u683C": {
       en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
     },
     "\u5148\u5728\u6E38\u620F\u8BBE\u7F6E\u5185\u70B9\u51FB\u5F00\u542F\u65E5\u5FD7\uFF0C\u7136\u540E\u91CD\u65B0\u9009\u62E9\u89D2\u8272\u8FDB\u5165\u6E38\u620F": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your backpack, or reselect your character'
+      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
     "\u8C03\u6574\u6781\u7B80\u6A21\u5F0F\u4E0B\u7684\u6587\u5B57\u5927\u5C0F\uFF0870% - 180%\uFF09": {
       en: "Adjust the font size in Mini Window mode (70% - 180%)"
@@ -18306,7 +18309,7 @@
       en: "Upload custom image (JPG/PNG/GIF supported)"
     },
     "\u8BF7\u6574\u7406\u80CC\u5305\u6216\u5C0F\u9000\u91CD\u9009\u4EBA\u7269\u624D\u80FD\u6B63\u5E38\u8BB0\u5F55\u7269\u54C1\u6570\u636E": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your backpack, or reselect your character'
+      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
     "\u9009\u62E9\u80CC\u666F\u56FE\u7247\uFF08\u652F\u6301 JPG/PNG/GIF": {
       en: "Select background image (JPG/PNG/GIF supported)"

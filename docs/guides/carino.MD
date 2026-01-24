@@ -315,12 +315,14 @@ C3 59LV: I20sLvKOEfCIkgAAAAAA5w==
 96 LAST: /dXSKfRSEfCx4AAAAAAAPQ==
 
 ### BB
-BB1: 8QRrkvRvEfCx4QAAAAAAPQ==
-BB2: sGjhvfUhEfCK2AAAAAAA1A==
-BB3: AY5qxvXqEfCsnQAAAAAAmA==
-BB4: t0tjYPZ+EfCLrwAAAAAAog==
+BB1: 8QRrkvRvEfCx4QAAAAAAPQ== 
+BB2: sGjhvfUhEfCK2AAAAAAA1A== 
+BB3: AY5qxvXqEfCsnQAAAAAAmA== 
+BB4: t0tjYPZ+EfCLrwAAAAAAog== 
 
-
+### Armour
+Armour1: PjKttveyEfCjZAAAAAAAgw== 
+Armour2: 62BRUfiCEfC9fgAAAAAASA==
 
 ## End Notes - Vorax
 Look into for early Vorax

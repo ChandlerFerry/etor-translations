@@ -154,7 +154,7 @@ const seasonTranslations: Translations = {
     }
 }
 
-// Brute force - replace this with regex
+// TODO: Brute force - replace this with regex
 const tempBruteForceTranslations: Translations = {
     "等1种": {
         en: "+1"

@@ -18202,6 +18202,12 @@
     }
   };
   var uiTranslations = {
+    "\u5DE8\u529B": {
+      en: "Might"
+    },
+    "\u76D1\u89C6\u8005": {
+      en: "Watcher"
+    },
     "\u641C\u7D22\u7269\u54C1\u540D\u79F0": {
       en: "Search item name(CN)"
     },
@@ -18279,7 +18285,7 @@
       en: "Quantity"
     },
     "\u641C\u7D22\u6807\u7B7E": {
-      en: "Search Tags"
+      en: "Search Tags(CN)"
     },
     "\u81F3\u5C11 30 \u5F20\u56FE\u53C2\u4E0E\u7EDF\u8BA1": {
       en: ">30 maps required for statistics"

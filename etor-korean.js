@@ -18662,6 +18662,9 @@
     "\u6E34\u763E\u6B8B\u80A2": {
       en: "Amputated Limb"
     },
+    "\u5854\u7F57": {
+      en: "Arcana"
+    },
     "\u666E\u901A\u5668\u5B98": {
       en: "Common Organ"
     },

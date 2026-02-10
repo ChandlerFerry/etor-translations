@@ -29,6 +29,28 @@ function hideUnwantedElements(root: Element | Document): void {
       }
     }
   }
+
+  const langSwitchers = root.querySelectorAll('.language-switcher');
+  for (const el of langSwitchers) {
+    const container = el.closest('.px-1');
+    const target = container ?? el;
+    if (!hiddenElements.has(target)) {
+      (target as HTMLElement).style.display = 'none';
+      hiddenElements.add(target);
+    }
+  }
+
+  const modalHeaders = root.querySelectorAll('.modal-header');
+  for (const header of modalHeaders) {
+    const title = header.querySelector('h2');
+    if (title?.textContent?.includes('Confirm Data Reset')) {
+      const closeBtn = header.querySelector('button[aria-label="关闭"]');
+      if (closeBtn && !hiddenElements.has(closeBtn)) {
+        (closeBtn as HTMLElement).style.display = 'none';
+        hiddenElements.add(closeBtn);
+      }
+    }
+  }
 }
 
 function translateText(text: string): string {
@@ -117,10 +139,15 @@ function processPendingTranslations(): void {
   }
 }
 
+const app = (document.querySelector('#app') as any)?.__vue_app__;
+if (app) {
+  const i18n = app.config.globalProperties.$i18n;
+  if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
+}
+
 hideUnwantedElements(document);
 translateElement(document.body);
 
-// MutationObserver for dynamic content
 const observer = new MutationObserver((mutations) => {
   for (const mutation of mutations) {
     for (const node of mutation.addedNodes) {
@@ -142,3 +169,36 @@ observer.observe(document.body, {
   subtree: true,
   characterData: true
 });
+
+const portalModalObserver = new MutationObserver((mutations) => {
+  for (const mutation of mutations) {
+    for (const node of mutation.addedNodes) {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        const el = node as Element;
+        if (el.id === 'headlessui-portal-root') {
+          observer.observe(el, {
+            childList: true,
+            subtree: true,
+            characterData: true
+          });
+          portalModalObserver.disconnect();
+          break;
+        }
+      }
+    }
+  }
+});
+
+const existingPortalModal = document.querySelector('#headlessui-portal-root');
+if (existingPortalModal) {
+  observer.observe(existingPortalModal, {
+    childList: true,
+    subtree: true,
+    characterData: true
+  });
+} else {
+  portalModalObserver.observe(document.body, {
+    childList: true,
+    subtree: false
+  });
+}

@@ -1,9 +1,37 @@
-// The website has a qe.settings.language that converts a few words from Chinese to English.
-// However, this is not accessible from the global scope at this time, and passing a queryParam nor changing the local settings.json work either
 import { atlasTalentTranslations } from "./atlas-talents"
 import { Lang, Translations } from "./translations.types"
 
 const patchNotes: Translations = {
+    "https://drive.google.com/file/d/1SRTJRiegM-iWIWJPDpb00acOzMz8etDP": {
+        en: "[Non-Portable URL Install Hidden due to security risks]"
+    },
+    "在各个模块中添加根据物品类型的价值分布图": {
+        en: "Added value distribution charts by item type in various modules"
+    },
+    "优化桌宠成本提示，在进入主城时提醒": {
+        en: "Optimized notification pet cost alerts, now triggers when idle in town"
+    },
+    "优化策略工作台面板布局,支持实时策略收益和效率计算": {
+        en: "Optimized Strategy Workbench panel layout, supports real-time strategy profit and efficiency calculation"
+    },
+    "策略榜标签支持反选": {
+        en: "Strategy Leaderboard tag supports deselection"
+    },
+    "修复历史记录中总时间和图内时间展示不明确的问题": {
+        en: "Fixed issue with unclear display of total time and in-map time in history records"
+    },
+    "支持收益排除物品，在价格库中配置排除物品，排除物品不会计入收益计算": {
+        en: "Added support for excluding items from profit, which can be configured in the price database"
+    },
+    "修复成本物品列表价格显示错误的问题": {
+        en: "Fixed issue with incorrect price display in cost item list"
+    },
+    "优化历史记录轮次选择，修复历史记录拾取总览包含成本的bug": {
+        en: "Optimized history session selection, fixed bug where loot overview included cost items"
+    },
+    "初步完成国际化英文版本，并提供一个支持海外网络的安装包,后续逐步实现所有物品英文文本": {
+        en: "Initial release of English version with support for overseas networks, with gradual implementation of English text for all items"
+    },
     "天赋树": {
         en: "Constellation"
     },
@@ -119,10 +147,10 @@ const characterClassTranslations: Translations = {
         en: "E3"
     },
     "宾1": {
-        en: "B1"
+        en: "B1" // Confirmed
     },
     "宾2": {
-        en: "B2"
+        en: "B2" // Confirmed
     },
     "冰1": {
         en: "G1"
@@ -348,6 +376,9 @@ const uiTranslations: Translations = {
     "玩法": {
         en: "Mode"
     },
+    "正在加载易火": {
+        en: "Loading..."
+    },
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": {
         en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
     },
@@ -355,7 +386,7 @@ const uiTranslations: Translations = {
         en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
     },
     "先在游戏设置内点击开启日志，然后重新选择角色进入游戏": {
-        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
+        en: "Please \"Enable Log\" in \"Settings -> Other\" then reselect your character"
     },
     "调整极简模式下的文字大小（70% - 180%）": {
         en: "Adjust the font size in Mini Window mode (70% - 180%)"
@@ -522,17 +553,32 @@ const uiTranslations: Translations = {
     "极简模式显示项": {
         en: "Mini Window Display Items"
     },
+    "简体中文": {
+        en: "Translated English"
+    },
+    "周一": {
+        en: "Mon."
+    },
+    "周日": {
+        en: "Sun."
+    },
+    "周六": {
+        en: "Sat."
+    },
+    "周五": {
+        en: "Fri."
+    },
     "当前记录的角色": {
         en: "Character in Current Session"
     },
     "S11赛季在线": {
-        en: "S11 ETOR Users:"
+        en: "Season 11 Online"
     },
-    "易火 ETor": {
+    "YiHuo ETor": {
         en: "易火 ETor (CF)"
     },
-    "易火-ETor": {
-        en: "易火-ETor (CF)"
+    "YiHuo-ETor": {
+        en: "易火 ETor (CF)"
     },
     "总收益(扣税)": {
         en: "Total Profit (After Tax)"
@@ -814,7 +860,7 @@ const uiTranslations: Translations = {
         en: "History"
     },
     "策略分析": {
-        en: "Strategy Analysis"
+        en: "Analytics"
     },
     "小窗模式": {
         en: "Mini Window"
@@ -1113,6 +1159,18 @@ const uiTranslations: Translations = {
     "图内": {
         en: "Current Map"
     },
+    "策略概览": {
+        en: "Strategy Overview"
+    },
+    "详情": {
+        en: "Details"
+    },
+    "策略占比": {
+        en: "Usage Rate"
+    },
+    "当前指标": {
+        en: "Current Metrics"
+    },
     "策略": {
         en: "Strategy"
     },
@@ -1187,6 +1245,9 @@ const uiTranslations: Translations = {
     },
     "收益": {
         en: "Profit"
+    },
+    "平均效率": {
+        en: "Avg Efficiency"
     },
     "效率": {
         en: "Efficiency"

@@ -87,7 +87,8 @@ jobs:
           draft: true
           prerelease: false
 
-      - uses: eregon/publish-release@v1
+      - if: steps.commit.outputs.committed == 'true'
+        uses: eregon/publish-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

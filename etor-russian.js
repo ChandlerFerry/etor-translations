@@ -18234,1137 +18234,1136 @@
     }
   };
   var uiTranslations = {
-    "\u52C7\u8005\u4E4B\u8DEF": {
-      en: "Proof of the Brave"
-    },
-    "\u5DE8\u529B": {
-      en: "Might"
-    },
-    "\u76D1\u89C6\u8005": {
-      en: "Watcher"
-    },
-    "\u641C\u7D22\u7269\u54C1\u540D\u79F0": {
-      en: "Search item name(CN)"
-    },
-    "\u6E34\u763E\u75C7": {
-      en: "Vorax Theater"
-    },
-    "\u5927\u4EA8": {
-      en: "Sandlord"
-    },
-    "\u6700\u4F4E\u4EF7\u683C": {
-      en: "Min Price"
-    },
-    "\u6700\u9AD8\u4EF7\u683C": {
-      en: "Max Price"
-    },
-    "\u6682\u65E0\u4EF7\u683C\u6570\u636E": {
-      en: "No price data available"
-    },
     "\u8BB0\u5F55\u72B6\u6001\u5F02\u5E38\uFF01\uFF01\uFF01\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F\uFF01\uFF01": {
-      en: 'Error! Please "Enable Log" in "Settings -> Other" then reselect your character!!'
-    },
-    "\u4E07\u754C": {
-      en: "Rift of Dimensions"
-    },
-    "\u5730\u56FE": {
-      en: "Map"
-    },
-    "\u65E0\u6210\u672C\u7269\u54C1": {
-      en: "No Costs"
-    },
-    //
-    "\u6682\u65E0\u6392\u884C\u6570\u636E": {
-      en: "No data available"
-    },
-    "\u6BCF\u5206\u949F\u6B7B\u4EA1": {
-      en: "Maps/min"
-    },
-    "\u5B9E\u9645\u6E38\u620F\u65F6\u95F4": {
-      en: "Time in Maps"
-    },
-    "\u6392\u884C\u699C\u52A0\u8F7D\u4E2D...": {
-      en: "Loading Leaderboard..."
-    },
-    "\u4E3B\u5929\u8D4B": {
-      en: "Main Talents"
-    },
-    "days\u8D4B\u5206\u5E03": {
-      en: "Atlas Talent Distribution"
-    },
-    "\u56DA\u7B3C": {
-      en: "Cage"
-    },
-    "\u5E7D\u9083": {
-      en: "Profound"
-    },
-    "\u5C55\u5F00\u66F4\u591A": {
-      en: "Show More"
-    },
-    "\u6536\u8D77": {
-      en: "Show Less"
-    },
-    "\u603B\u4EF7": {
-      en: "Total Price"
-    },
-    "\u79CD": {
-      en: "Types"
-    },
-    "\u5171": {
-      en: "Total"
-    },
-    "\u6389\u7387Items": {
-      en: "Items Found"
-    },
-    "\u6570\u91CF": {
-      en: "Quantity"
-    },
-    "\u641C\u7D22\u6807\u7B7E": {
-      en: "Search Tags(CN)"
-    },
-    "\u81F3\u5C11 30 \u5F20\u56FE\u53C2\u4E0E\u7EDF\u8BA1": {
-      en: ">30 maps required for statistics"
-    },
-    "\u672A\u77E5\u73A9\u6CD5": {
-      en: "Normal Mode"
-    },
-    "\u5237\u56FE\u65F6\u523B": {
-      en: "Map Timemark"
-    },
-    "\u672A\u77E5\u5168\u90E8\u65F6\u523B": {
-      en: "Unknown Timemark"
-    },
-    "\u6392\u540D": {
-      en: "Rank"
-    },
-    "\u5730\u56FE\u533A\u57DF": {
-      en: "Map Region"
-    },
-    "\u4F7F\u7528\u6B21\u6570": {
-      en: "# of Maps"
-    },
-    "\u5730\u56FE\u73A9\u6CD5": {
-      en: "Map Mode"
-    },
-    "\u533A\u57DF": {
-      en: "Region"
-    },
-    "\u73A9\u6CD5": {
-      en: "Mode"
-    },
-    "\u6B63\u5728\u52A0\u8F7D\u6613\u706B": {
-      en: "Loading..."
+      "en": 'Error! Please "Enable Log" in "Settings -> Other" then reselect your character!!'
     },
     "\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
+      "en": 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
     "\u7531\u4E8E\u65E5\u5FD7\u539F\u56E0\uFF0C\u68F1\u955C\u65E0\u6CD5\u533A\u5206\u7A00\u6709\u5EA6\uFF0C\u6539\u4E3A\u9ED8\u8BA4\u66F4\u65B0\u7D2B\u8272\u4EF7\u683C": {
-      en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
+      "en": "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
     },
     "\u5148\u5728\u6E38\u620F\u8BBE\u7F6E\u5185\u70B9\u51FB\u5F00\u542F\u65E5\u5FD7\uFF0C\u7136\u540E\u91CD\u65B0\u9009\u62E9\u89D2\u8272\u8FDB\u5165\u6E38\u620F": {
-      en: 'Please "Enable Log" in "Settings -> Other" then reselect your character'
+      "en": 'Please "Enable Log" in "Settings -> Other" then reselect your character'
     },
     "\u8C03\u6574\u6781\u7B80\u6A21\u5F0F\u4E0B\u7684\u6587\u5B57\u5927\u5C0F\uFF0870% - 180%\uFF09": {
-      en: "Adjust the font size in Mini Window mode (70% - 180%)"
+      "en": "Adjust the font size in Mini Window mode (70% - 180%)"
     },
     "\u4FDD\u5B58\u4E0A\u4E00\u6B21\u8BB0\u5F55\u7684\u6570\u636E\u5230\u5386\u53F2\u8BB0\u5F55\uFF0C\u5F00\u59CB\u65B0\u7684\u5237\u56FE\u8BB0\u5F55": {
-      en: "Archive session's data and reset, save to history"
+      "en": "Archive session's data and reset, save to history"
     },
     "\u4E0A\u4F20\u81EA\u5B9A\u4E49\u56FE\u7247\uFF08\u652F\u6301 JPG/PNG/GIF\uFF09": {
-      en: "Upload custom image (JPG/PNG/GIF supported)"
+      "en": "Upload custom image (JPG/PNG/GIF supported)"
     },
     "\u8BF7\u6574\u7406\u80CC\u5305\u6216\u5C0F\u9000\u91CD\u9009\u4EBA\u7269\u624D\u80FD\u6B63\u5E38\u8BB0\u5F55\u7269\u54C1\u6570\u636E": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
+      "en": 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
     "\u9009\u62E9\u80CC\u666F\u56FE\u7247\uFF08\u652F\u6301 JPG/PNG/GIF": {
-      en: "Select background image (JPG/PNG/GIF supported)"
+      "en": "Select background image (JPG/PNG/GIF supported)"
     },
     "\u57FA\u4E8E\u5F53\u524D\u65F6\u95F4\u8303\u56F4\u6C47\u603B\u7B56\u7565\u3001\u6536\u76CA\u4E0E\u5730\u56FE\u8868\u73B0": {
-      en: "Summarize strategy, profit, and map performance based on the current time range"
+      "en": "Summarize strategy, profit, and map performance based on the current time range"
     },
     "\u6839\u636E\u5F53\u524D\u65F6\u95F4\u8303\u56F4\u6C47\u603B\u7B56\u7565\u3001\u6536\u76CA\u548C\u5730\u56FE\u8868\u73B0": {
-      en: "Summarize strategy, profit, and map performance based on the requested time range"
+      "en": "Summarize strategy, profit, and map performance based on the requested time range"
     },
     "Current MapShow All": {
-      en: "Current Map Show All"
+      "en": "Current Map Show All"
     },
     "\u4ECE\u5F53\u524D\u65F6\u95F4\u8303\u56F4\u7684\u5730\u56FE\u8BB0\u5F55\u4E2D\u63D0\u70BC\u7B56\u7565\u8868\u73B0": {
-      en: "Extract strategy performance from map records within the current time range"
+      "en": "Extract strategy performance from map records within the current time range"
     },
     "\u6682\u65E0\u7B56\u7565\u6570\u636E\uFF0C\u8BF7\u5148\u5237\u56FE\u6216\u8C03\u6574\u7B5B\u9009\u6761\u4EF6": {
-      en: "No strategy data available, please run maps or adjust filter criteria"
+      "en": "No strategy data available, please run maps or adjust filter criteria"
     },
     "\u5F52\u6863\u5F53\u524D\u6570\u636E\u5E76\u91CD\u7F6E\uFF0C\u4FDD\u5B58\u5230\u5386\u53F2\u8BB0\u5F55": {
-      en: "Archive current data and reset, save to history"
+      "en": "Archive current data and reset, save to history"
     },
     "\u4FEE\u590D\u684C\u5BA0\u7981\u7528\u4ECD\u663E\u793A\u6210\u672C\u63A8\u9001\u7684\u95EE\u9898": {
-      en: "Fixed issue where notification pet would still show cost alerts when disabled"
+      "en": "Fixed issue where notification pet would still show cost alerts when disabled"
     },
     "\u4ECE\u8FDB\u7B2C\u4E00\u5F20\u56FE\u5230\u6700\u540E\u51FA\u56FE\u4E4B\u95F4\u603B\u65F6\u957F": {
-      en: "Total time from first map entry to last exit"
+      "en": "Total time from first map entry to last exit"
     },
     "\u8C03\u6574\u754C\u9762\u5E03\u5C40\uFF0C\u4F18\u5316\u6570\u636E\u91CD\u7F6E\u903B\u8F91": {
-      en: "Adjusted UI layout and optimized data reset logic"
+      "en": "Adjusted UI layout and optimized data reset logic"
     },
     "\u4EC5\u5C55\u793A K1 - \u6DF1\u7A7A \u7684\u8BB0\u5F55": {
-      en: "Showing K1 - Deep Space records"
+      "en": "Showing K1 - Deep Space records"
     },
     "\u5F00\u542F\u540E\u6A21\u62DF\u4E3B\u57CE\u6302\u673A\u5E76\u52A0\u901F\u89E6\u53D1": {
-      en: "Simulates idle in town and speeds up triggers when enabled"
+      "en": "Simulates idle in town and speeds up triggers when enabled"
     },
     "\u65B0\u589E\u684C\u5BA0\u5F62\u8C61\u4EE5\u53CA\u652F\u6301\u81EA\u5B9A\u4E49": {
-      en: "Added notification pet images and support for customization"
+      "en": "Added notification pet images and support for customization"
     },
     "Current Map\u540D\u79F0": {
-      en: "Current Map Name"
+      "en": "Current Map Name"
+    },
+    "\u81F3\u5C11 30 \u5F20\u56FE\u53C2\u4E0E\u7EDF\u8BA1": {
+      "en": ">30 maps required for statistics"
     },
     "\u5C0F\u7A97\u684C\u5BA0\u65B0\u589E\u6210\u672C\u4F59\u91CF\u63D0\u9192": {
-      en: "Mini window notification pet added cost balance reminder"
+      "en": "Mini window notification pet added cost balance reminder"
     },
     "\u6302\u673A\u3001\u6210\u672C\u4E0D\u8DB3\u7B49\u63D0\u9192\u529F\u80FD": {
-      en: "Alerts for idle, insufficient cost, etc."
+      "en": "Alerts for idle, insufficient cost, etc."
     },
     "\u6309\u8D5B\u5B63\u7EDF\u8BA1\u89D2\u8272\u6B7B\u4EA1\u60C5\u51B5": {
-      en: "Maps Ran by Season"
+      "en": "Maps Ran by Season"
     },
     "\u6613\u706B\u8BB0\u5F55\u4E2D:S11\u8D5B\u5B63": {
-      en: "Tracking: S11Season"
+      "en": "Tracking: S11Season"
     },
     "\u65E5\u5FD7\u672A\u6253\u5F00\u6216\u80CC\u5305\u672A\u6574\u7406": {
-      en: "Failed to load item data"
+      "en": "Failed to load item data"
     },
     "\u6CE8\uFF1A\u4F20\u5947\u5747\u4E3A\u672A\u9274\u5B9A\u4EF7\u683C": {
-      en: "Note: Legendary items priced as unidentified"
+      "en": "Note: Legendary items priced as unidentified"
     },
     "\u68C0\u6D4B\u5230\u4E0A\u4E00\u6B21\u5237\u56FE\u6570\u636E": {
-      en: "Last Session was on Character"
-    },
-    "\u5C0F\u7A97\u548C\u6781\u7B80\u6A21\u5F0F\u8C03\u6574": {
-      en: "Mini Window and Minimal Mode Adjustments"
-    },
-    "\u4F18\u5316\u8BBE\u7F6E\u754C\u9762\u5185\u5BB9\u9879": {
-      en: "Optimized settings UI content items"
-    },
-    "\u5DF2\u663E\u793A\uFF08\u62D6\u62FD\u6392\u5E8F\uFF09": {
-      en: "Visible (Drag to Sort)"
-    },
-    "\u753B\u96EA\u652F\u6301\u6210\u672C\u8BB0\u5F55": {
-      en: "Added cost item tracking for Snowpaper"
-    },
-    "\u4F18\u5316\u5386\u53F2\u8BB0\u5F55\u6A21\u5757": {
-      en: "Optimized history module"
-    },
-    "\u5207\u6362\u6548\u7387\u7EDF\u8BA1\u5355\u4F4D": {
-      en: "Toggle efficiency calculation unit (min/hour)"
-    },
-    "\u5207\u6362\u684C\u5BA0\u663E\u793A\u5F62\u8C61": {
-      en: "Change notification pet appearance"
-    },
-    "\u672A\u4E0A\u4F20\u81EA\u5B9A\u4E49\u5F62\u8C61": {
-      en: "No custom image uploaded"
-    },
-    "\u4FDD\u5B58\u5E76\u5F00\u59CB\u65B0\u8BB0\u5F55": {
-      en: "Save and Start New Session"
-    },
-    "\u6536\u76CA\u6309\u6263\u7A0E\u663E\u793A": {
-      en: "Display profit after tax"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u6212\u6307": {
-      en: "Legendary Ring"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u624B\u5957": {
-      en: "Legendary Gloves"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u5934\u90E8": {
-      en: "Legendary Helm"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u9879\u94FE": {
-      en: "Legendary Ammy"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u978B\u5B50": {
-      en: "Legendary Boots"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u80F8\u7532": {
-      en: "Legendary Chest"
-    },
-    "\u6838\u5FC3\u5668\u5B98-\u8170\u5E26": {
-      en: "Legendary Belt"
-    },
-    "\u7279\u6B8A\u5668\u5B98-\u5176\u5B83": {
-      en: "Flawless Organ"
-    },
-    "\u5B8C\u7F8E\u809D\u810F-\u8F6C\u4F24": {
-      en: "Flawless Liver"
-    },
-    "\u5B8C\u7F8E\u5589\u820C-\u795D\u798F": {
-      en: "Flawless Tongue"
-    },
-    "\u5B8C\u7F8E\u80DA\u80CE-\u53EC\u5524": {
-      en: "Flawless Embryo"
-    },
-    "\u5B8C\u7F8E\u76AE\u80A4-\u9632\u5FA1": {
-      en: "Flawless Skin"
-    },
-    "\u5B8C\u7F8E\u5FC3\u810F-\u589E\u76CA": {
-      en: "Flawless Heart"
-    },
-    "\u5B8C\u7F8E\u773C\u7403-\u51CF\u76CA": {
-      en: "Flawless Eye"
-    },
-    "\u5B8C\u7F8E\u7FBD\u7FFC-\u6301\u7EED": {
-      en: "Flawless Wing"
-    },
-    "\u5F53\u524D\u5229/\u62FE/\u672C": {
-      en: "Profit/Looted/Mapcost"
-    },
-    "\u4F60\u5728\u4E3B\u57CE\u53D1\u5446\u4E86": {
-      en: "You're idle"
-    },
-    "\u8981\u4E0D\u8981\u52A8\u4E00\u52A8\uFF1F": {
-      en: "Why not move around?"
-    },
-    "\u522B\u5FD8\u4E86\u5237\u56FE\u54E6\uFF01": {
-      en: "Don't forget to run maps!"
-    },
-    "\u6781\u7B80\u6A21\u5F0F\u663E\u793A\u9879": {
-      en: "Mini Window Display Items"
-    },
-    "\u7B80\u4F53\u4E2D\u6587": {
-      en: "Translated English"
-    },
-    "\u5468\u4E00": {
-      en: "Mon."
-    },
-    "\u5468\u65E5": {
-      en: "Sun."
-    },
-    "\u5468\u516D": {
-      en: "Sat."
-    },
-    "\u5468\u4E94": {
-      en: "Fri."
-    },
-    "\u5F53\u524D\u8BB0\u5F55\u7684\u89D2\u8272": {
-      en: "Character in Current Session"
-    },
-    "S11\u8D5B\u5B63\u5728\u7EBF": {
-      en: "Season 11 Online"
+      "en": "Last Session was on Character"
     },
     "YiHuo ETor": {
-      en: "\u6613\u706B ETor (CF)"
+      "en": "\u6613\u706B ETor (CF)"
     },
     "YiHuo-ETor": {
-      en: "\u6613\u706B ETor (CF)"
+      "en": "\u6613\u706B ETor (CF)"
+    },
+    "\u6392\u884C\u699C\u52A0\u8F7D\u4E2D...": {
+      "en": "Loading Leaderboard..."
+    },
+    "\u5C0F\u7A97\u548C\u6781\u7B80\u6A21\u5F0F\u8C03\u6574": {
+      "en": "Mini Window and Minimal Mode Adjustments"
+    },
+    "\u4F18\u5316\u8BBE\u7F6E\u754C\u9762\u5185\u5BB9\u9879": {
+      "en": "Optimized settings UI content items"
+    },
+    "\u5DF2\u663E\u793A\uFF08\u62D6\u62FD\u6392\u5E8F\uFF09": {
+      "en": "Visible (Drag to Sort)"
+    },
+    "\u753B\u96EA\u652F\u6301\u6210\u672C\u8BB0\u5F55": {
+      "en": "Added cost item tracking for Snowpaper"
+    },
+    "\u4F18\u5316\u5386\u53F2\u8BB0\u5F55\u6A21\u5757": {
+      "en": "Optimized history module"
+    },
+    "\u5207\u6362\u6548\u7387\u7EDF\u8BA1\u5355\u4F4D": {
+      "en": "Toggle efficiency calculation unit (min/hour)"
+    },
+    "\u5207\u6362\u684C\u5BA0\u663E\u793A\u5F62\u8C61": {
+      "en": "Change notification pet appearance"
+    },
+    "\u672A\u4E0A\u4F20\u81EA\u5B9A\u4E49\u5F62\u8C61": {
+      "en": "No custom image uploaded"
+    },
+    "\u4FDD\u5B58\u5E76\u5F00\u59CB\u65B0\u8BB0\u5F55": {
+      "en": "Save and Start New Session"
+    },
+    "days\u8D4B\u5206\u5E03": {
+      "en": "Atlas Talent Distribution"
+    },
+    "\u6389\u7387Items": {
+      "en": "Items Found"
+    },
+    "\u6536\u76CA\u6309\u6263\u7A0E\u663E\u793A": {
+      "en": "Display profit after tax"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u6212\u6307": {
+      "en": "Legendary Ring"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u624B\u5957": {
+      "en": "Legendary Gloves"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u5934\u90E8": {
+      "en": "Legendary Helm"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u9879\u94FE": {
+      "en": "Legendary Ammy"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u978B\u5B50": {
+      "en": "Legendary Boots"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u80F8\u7532": {
+      "en": "Legendary Chest"
+    },
+    "\u6838\u5FC3\u5668\u5B98-\u8170\u5E26": {
+      "en": "Legendary Belt"
+    },
+    "\u7279\u6B8A\u5668\u5B98-\u5176\u5B83": {
+      "en": "Flawless Organ"
+    },
+    "\u5B8C\u7F8E\u809D\u810F-\u8F6C\u4F24": {
+      "en": "Flawless Liver"
+    },
+    "\u5B8C\u7F8E\u5589\u820C-\u795D\u798F": {
+      "en": "Flawless Tongue"
+    },
+    "\u5B8C\u7F8E\u80DA\u80CE-\u53EC\u5524": {
+      "en": "Flawless Embryo"
+    },
+    "\u5B8C\u7F8E\u76AE\u80A4-\u9632\u5FA1": {
+      "en": "Flawless Skin"
+    },
+    "\u5B8C\u7F8E\u5FC3\u810F-\u589E\u76CA": {
+      "en": "Flawless Heart"
+    },
+    "\u5B8C\u7F8E\u773C\u7403-\u51CF\u76CA": {
+      "en": "Flawless Eye"
+    },
+    "\u5B8C\u7F8E\u7FBD\u7FFC-\u6301\u7EED": {
+      "en": "Flawless Wing"
+    },
+    "\u5F53\u524D\u5229/\u62FE/\u672C": {
+      "en": "Profit/Looted/Mapcost"
+    },
+    "\u4F60\u5728\u4E3B\u57CE\u53D1\u5446\u4E86": {
+      "en": "You're idle"
+    },
+    "\u8981\u4E0D\u8981\u52A8\u4E00\u52A8\uFF1F": {
+      "en": "Why not move around?"
+    },
+    "\u522B\u5FD8\u4E86\u5237\u56FE\u54E6\uFF01": {
+      "en": "Don't forget to run maps!"
+    },
+    "\u6781\u7B80\u6A21\u5F0F\u663E\u793A\u9879": {
+      "en": "Mini Window Display Items"
+    },
+    "\u5F53\u524D\u8BB0\u5F55\u7684\u89D2\u8272": {
+      "en": "Character in Current Session"
+    },
+    "S11\u8D5B\u5B63\u5728\u7EBF": {
+      "en": "Season 11 Online"
     },
     "\u603B\u6536\u76CA(\u6263\u7A0E)": {
-      en: "Total Profit (After Tax)"
+      "en": "Total Profit (After Tax)"
     },
     "\u5730\u56FE\u5185\u65F6\u957F\u7D2F\u52A0": {
-      en: "Total time spent in maps"
+      "en": "Total time spent in maps"
     },
     "\u5730\u56FE / \u65F6\u95F4": {
-      en: "Map / Time"
+      "en": "Map / Time"
     },
     "\u5E73\u5747\u6536\u76CA/\u5206\u949F": {
-      en: "Avg Profit/Min"
+      "en": "Avg Profit/Min"
     },
     "\u641C\u7D22\u7B56\u7565/\u7269\u54C1": {
-      en: "Search Strategy/Items"
+      "en": "Search Strategy/Items"
+    },
+    "\u641C\u7D22\u7269\u54C1\u540D\u79F0": {
+      "en": "Search item name(CN)"
+    },
+    "\u6682\u65E0\u4EF7\u683C\u6570\u636E": {
+      "en": "No price data available"
+    },
+    "\u6682\u65E0\u6392\u884C\u6570\u636E": {
+      "en": "No data available"
+    },
+    "\u5B9E\u9645\u6E38\u620F\u65F6\u95F4": {
+      "en": "Time in Maps"
+    },
+    "\u672A\u77E5\u5168\u90E8\u65F6\u523B": {
+      "en": "Unknown Timemark"
+    },
+    "\u6B63\u5728\u52A0\u8F7D\u6613\u706B": {
+      "en": "Loading..."
     },
     "\u65E5\u5FD7\u76D1\u542C\u72B6\u6001": {
-      en: "Log Listening Status"
+      "en": "Log Listening Status"
     },
     "\u505C\u6B62\u540E\u53F0\u670D\u52A1": {
-      en: "Stop Background Service"
+      "en": "Stop Background Service"
     },
     "\u91CD\u7F6E\u6570\u636E\u786E\u8BA4": {
-      en: "Confirm Data Reset"
+      "en": "Confirm Data Reset"
     },
     "\u603B\u8BA1\u5730\u56FE\u6548\u7387": {
-      en: "Overall Efficiency"
+      "en": "Overall Efficiency"
     },
     "\u5386\u53F2\u8BB0\u5F55\u68C0\u6D4B": {
-      en: "Session Detected"
+      "en": "Session Detected"
     },
     "\u8BB0\u5F55\u72B6\u6001\u5F02\u5E38": {
-      en: "Error"
+      "en": "Error"
     },
     "\u7EE7\u7EED\u5F53\u524D\u8BB0\u5F55": {
-      en: "Continue Session"
+      "en": "Continue Session"
     },
     "\u6E05\u7A7A\u5F53\u524D\u6570\u636E": {
-      en: "Delete Session"
+      "en": "Delete Session"
     },
     "\u6700High\u4EF7": {
-      en: "Highest"
+      "en": "Highest"
     },
     "\u6682\u65E0\u62FE\u53D6\u8BB0\u5F55": {
-      en: "No loot records"
+      "en": "No loot records"
     },
     "\u8BF7\u9009\u62E9\u4E3B\u7C7B\u578B": {
-      en: "Select main type"
+      "en": "Select main type"
     },
     "\u6682\u65E0\u5386\u53F2\u65E5\u671F": {
-      en: "No history dates"
+      "en": "No history dates"
     },
     "\u5D07\u9AD8\u8F85\u52A9\u6280\u80FD": {
-      en: "Noble Support Skills"
+      "en": "Noble Support Skills"
     },
     "\u534E\u8D35\u8F85\u52A9\u6280\u80FD": {
-      en: "Magnificent Support Skills"
+      "en": "Magnificent Support Skills"
     },
     "\u786E\u5B9A\u7EE7\u7EED\u5417\uFF1F": {
-      en: "Are you sure to continue?"
+      "en": "Are you sure to continue?"
     },
     "\u5168\u90E8\u6210\u672C\u7269\u54C1": {
-      en: "Cost Items"
+      "en": "Cost Items"
+    },
+    "\u65E0\u6210\u672C\u7269\u54C1": {
+      "en": "No Costs"
+    },
+    "\u6BCF\u5206\u949F\u6B7B\u4EA1": {
+      "en": "Maps/min"
     },
     "\u68F1\u955C\u6C34\u5E73\u4EEA": {
-      en: "Prism Leveler"
+      "en": "Prism Leveler"
     },
     "/\u5206 \u7528\u65F6": {
-      en: "/min Duration"
+      "en": "/min Duration"
     },
     "\u6536\u76CA/\u5206\u949F": {
-      en: "Profit/Min"
+      "en": "Profit/Min"
     },
     "\u6700Low\u4EF7": {
-      en: "Lowest"
+      "en": "Lowest"
     },
     "\u6BCF\u5206\u949F\u6536\u76CA": {
-      en: "Profit/Min"
+      "en": "Profit/Min"
     },
     "\u67E5\u770B\u6CE2\u52A8\u56FE": {
-      en: "View price chart"
+      "en": "View price chart"
     },
     "\u4EC5\u6700\u65B0\u7248\u672C": {
-      en: "Latest only"
+      "en": "Latest only"
     },
     "\u7ADE\u901F\u6392\u884C\u699C": {
-      en: "Racing Leaderboard"
+      "en": "Racing Leaderboard"
     },
     "\u5267\u60C5\u7B2C\u4E00\u7AE0": {
-      en: "Chapter 1"
+      "en": "Chapter 1"
     },
     "\u5267\u60C5\u7B2C\u4E8C\u7AE0": {
-      en: "Chapter 2"
+      "en": "Chapter 2"
     },
     "\u5267\u60C5\u7B2C\u4E09\u7AE0": {
-      en: "Chapter 3"
+      "en": "Chapter 3"
     },
     "\u5168\u90E8\u4E3B\u5929\u8D4B": {
-      en: "Atlas"
+      "en": "Atlas"
+    },
+    "\u52C7\u8005\u4E4B\u8DEF": {
+      "en": "Proof of the Brave"
+    },
+    "\u6700\u4F4E\u4EF7\u683C": {
+      "en": "Min Price"
+    },
+    "\u6700\u9AD8\u4EF7\u683C": {
+      "en": "Max Price"
+    },
+    "\u5C55\u5F00\u66F4\u591A": {
+      "en": "Show More"
+    },
+    "\u641C\u7D22\u6807\u7B7E": {
+      "en": "Search Tags(CN)"
+    },
+    "\u672A\u77E5\u73A9\u6CD5": {
+      "en": "Normal Mode"
+    },
+    "\u5237\u56FE\u65F6\u523B": {
+      "en": "Map Timemark"
+    },
+    "\u5730\u56FE\u533A\u57DF": {
+      "en": "Map Region"
+    },
+    "\u4F7F\u7528\u6B21\u6570": {
+      "en": "# of Maps"
+    },
+    "\u5730\u56FE\u73A9\u6CD5": {
+      "en": "Map Mode"
+    },
+    "\u7B80\u4F53\u4E2D\u6587": {
+      "en": "Translated English"
     },
     "\u66F4\u65B0\u65E5\u5FD7": {
-      en: "Changelog"
+      "en": "Changelog"
     },
     "\u66F4\u65B0\u5185\u5BB9": {
-      en: "Update"
+      "en": "Update"
     },
     "\u663E\u793A\u8BBE\u7F6E": {
-      en: "Display Settings"
-    },
-    "\u6BDB\u5229": {
-      en: "Before Tax"
+      "en": "Display Settings"
     },
     "\u6263\u7A0E\u663E\u793A": {
-      en: "After Tax"
+      "en": "After Tax"
     },
     "\u6548\u7387\u5355\u4F4D": {
-      en: "Efficiency Unit"
+      "en": "Efficiency Unit"
     },
     "\u684C\u5BA0\u8BBE\u7F6E": {
-      en: "Notification Pet Settings"
+      "en": "Notification Pet Settings"
     },
     "\u5FEB\u901F\u64CD\u4F5C": {
-      en: "Quick Actions"
+      "en": "Quick Actions"
     },
     "\u5F00\u59CB\u8BB0\u5F55": {
-      en: "Start Recording Data"
+      "en": "Start Recording Data"
     },
     "\u505C\u6B62\u8BB0\u5F55": {
-      en: "Stop Recording Data"
+      "en": "Stop Recording Data"
     },
     "\u670D\u52A1\u72B6\u6001": {
-      en: "Service Status"
+      "en": "Service Status"
     },
     "\u65E5\u5FD7\u8DEF\u5F84": {
-      en: "Log Path"
+      "en": "Log Path"
     },
     "\u6700\u540E\u66F4\u65B0": {
-      en: "Last Updated"
+      "en": "Last Updated"
     },
     "\u62FE\u53D6\u5386\u53F2": {
-      en: "Loot History"
+      "en": "Loot History"
     },
     "\u5B89\u9759\u65F6\u95F4": {
-      en: "Quiet Time"
+      "en": "Quiet Time"
     },
     "\u6700\u77ED\u95F4\u9694": {
-      en: "Minimum Interval"
+      "en": "Minimum Interval"
     },
     "\u6700\u957F\u95F4\u9694": {
-      en: "Maximum Interval"
+      "en": "Maximum Interval"
     },
     "\u51FA\u73B0\u65F6\u957F": {
-      en: "Notification Duration"
+      "en": "Notification Duration"
     },
     "\u6E34\u763E\u6B8B\u80A2": {
-      en: "Amputated Limb"
-    },
-    "\u5854\u7F57": {
-      en: "Arcana"
+      "en": "Amputated Limb"
     },
     "\u666E\u901A\u5668\u5B98": {
-      en: "Common Organ"
+      "en": "Common Organ"
     },
     "\u77E5\u8BC6\u4E4B\u795E": {
-      en: "Goddess of Knowledge"
+      "en": "Goddess of Knowledge"
     },
     "\u53EA\u770B\u81EA\u5DF1": {
-      en: "Filter by Self"
+      "en": "Filter by Self"
     },
     "\u539F\u521D\u4E4B\u6838": {
-      en: "Traveler Entry"
+      "en": "Traveler Entry"
     },
     "\u9AD8\u5854\u7B79\u7801": {
-      en: "TOWER Token"
+      "en": "TOWER Token"
     },
     "\u8FF7\u57CE\u6B8B\u54CD": {
-      en: "Aeterna Reverb"
+      "en": "Aeterna Reverb"
     },
     "\u547D\u8FD0\u76F8\u5173": {
-      en: "Kismet Mats"
+      "en": "Kismet Mats"
     },
     "\u4FB5\u8680\u6750\u6599": {
-      en: "Corrosion Mats"
+      "en": "Corrosion Mats"
     },
     "\u795E\u683C\u5951\u7EA6": {
-      en: "Divinity Pact"
+      "en": "Divinity Pact"
     },
     "\u5347\u534E\u4E4B\u6954": {
-      en: "Transcendence Wedge"
+      "en": "Transcendence Wedge"
     },
     "\u8FFD\u5FC6\u6E38\u4E1D": {
-      en: "Memory Threads"
+      "en": "Memory Threads"
     },
     "\u7279\u6B8A\u68F1\u955C": {
-      en: "Special Prism"
+      "en": "Special Prism"
     },
     "\u5F02\u5EA6\u68F1\u955C": {
-      en: "Ethereal Prism"
+      "en": "Ethereal Prism"
     },
     "\u5F53\u524D\u6548\u7387": {
-      en: "Current Efficiency:"
+      "en": "Current Efficiency:"
     },
     "\u672A\u77E5\u60CA\u559C": {
-      en: "Unidentified Items"
+      "en": "Unidentified Items"
     },
     "\u6211\u5148\u5B89\u9759": {
-      en: "Sleep for"
+      "en": "Sleep for"
     },
     "\u5B57\u4F53\u5927\u5C0F": {
-      en: "Font Size"
+      "en": "Font Size"
     },
     "\u672A\u663E\u793A\u9879": {
-      en: "Hidden Items"
+      "en": "Hidden Items"
     },
     "\u684C\u5BA0\u63D0\u9192": {
-      en: "Notification Pet Alerts"
+      "en": "Notification Pet Alerts"
     },
     "\u684C\u5BA0\u8C03\u8BD5": {
-      en: "Notification Pet Debug"
+      "en": "Notification Pet Debug"
     },
     "\u684C\u5BA0\u5F62\u8C61": {
-      en: "Notification Pet Appearance"
+      "en": "Notification Pet Appearance"
     },
     "\u7EAF\u9ED1\u6A21\u5F0F": {
-      en: "Dark BG"
+      "en": "Dark BG"
     },
     "\u6D77\u7EF5\u5B9D\u5B9D": {
-      en: "SpongeBob"
+      "en": "SpongeBob"
     },
     "\u9009\u62E9\u56FE\u7247": {
-      en: "Select Image"
+      "en": "Select Image"
     },
     "\u684C\u5BA0\u53C2\u6570": {
-      en: "Notification Pet Settings"
+      "en": "Notification Pet Settings"
     },
     "\u6302\u673A\u9608\u503C": {
-      en: "Idle Threshold"
+      "en": "Idle Threshold"
     },
     "\u6536\u76CA/\u5206": {
-      en: "Profit/Min"
+      "en": "Profit/Min"
     },
     "\u5F53\u524D\u5730\u56FE": {
-      en: "Current Map"
+      "en": "Current Map"
     },
     "\u5E73\u5747\u6536\u76CA": {
-      en: "Avg Profit"
+      "en": "Avg Profit"
     },
     "\u5F53\u524D\u8303\u56F4": {
-      en: "Current Range"
+      "en": "Current Range"
     },
     "\u5F53\u524D\u4F1A\u8BDD": {
-      en: "Current Session"
+      "en": "Current Session"
     },
     "\u5237\u65B0\u6570\u636E": {
-      en: "Refresh Data"
+      "en": "Refresh Data"
     },
     "\u7EFC\u5408\u8BC4\u5206": {
-      en: "Overall Score"
+      "en": "Overall Score"
     },
     "\u6570\u636E\u5206\u6790": {
-      en: "Strategy Analysis"
+      "en": "Strategy Analysis"
     },
     "\u7269\u4EF7\u6CE2\u52A8": {
-      en: "Price Fluctuation"
+      "en": "Price Fluctuation"
     },
     "\u5F53\u524D\u5747\u4EF7": {
-      en: "Avg Price"
+      "en": "Avg Price"
     },
     "\u88AB\u52A8\u6280\u80FD": {
-      en: "Passive Skills"
+      "en": "Passive Skills"
     },
     "\u8F85\u52A9\u6280\u80FD": {
-      en: "Support Skills"
+      "en": "Support Skills"
     },
     "\u4E3B\u52A8\u6280\u80FD": {
-      en: "Active Skills"
+      "en": "Active Skills"
     },
     "\u5386\u53F2\u8BB0\u5F55": {
-      en: "History"
+      "en": "History"
     },
     "\u7B56\u7565\u5206\u6790": {
-      en: "Analytics"
+      "en": "Analytics"
     },
     "\u5C0F\u7A97\u6A21\u5F0F": {
-      en: "Mini Window"
+      "en": "Mini Window"
     },
     "\u6B63\u5728\u8BB0\u5F55": {
-      en: "Active"
+      "en": "Active"
     },
     "\u7B49\u5F85\u8FDB\u5165": {
-      en: "Waiting"
+      "en": "Waiting"
     },
     "\u80CC\u5305\u4EF7\u503C": {
-      en: "Inventory Value"
+      "en": "Inventory Value"
     },
     "\u706B/\u5206\u949F": {
-      en: "\u{1F525}/min"
+      "en": "\u{1F525}/min"
     },
     "\u56FE\u5185\u65F6\u957F": {
-      en: "In-Map Time"
+      "en": "In-Map Time"
     },
     "\u5B9E\u9645\u65F6\u957F": {
-      en: "Actual Time"
+      "en": "Actual Time"
     },
     "\u5730\u56FE\u6B21\u6570": {
-      en: "Map Runs"
+      "en": "Map Runs"
     },
     "\u5730\u56FE\u65E5\u5FD7": {
-      en: "Map Log"
+      "en": "Map Log"
     },
     "\u5730\u56FE\u8BB0\u5F55": {
-      en: "Map Records"
+      "en": "Map Records"
     },
     "\u6682\u65E0\u8BB0\u5F55": {
-      en: "No records yet"
+      "en": "No records yet"
     },
     "\u8DDF\u968F\u5730\u56FE": {
-      en: "Follow Map"
+      "en": "Follow Map"
     },
     "\u6E05\u9664\u6570\u636E": {
-      en: "Clear Data"
+      "en": "Clear Data"
     },
     "\u5207\u6362\u663E\u793A": {
-      en: "Toggle Display"
+      "en": "Toggle Display"
     },
     "\u4EF7\u683C\u8FC7\u6EE4": {
-      en: "Price Filter"
+      "en": "Price Filter"
     },
     "\u641C\u7D22\u7269\u54C1": {
-      en: "Search Items(CN)"
+      "en": "Search Items(CN)"
     },
     "\u66F4\u65B0\u65F6\u95F4": {
-      en: "Updated"
+      "en": "Updated"
     },
     "\u4F20\u5947\u88C5\u5907": {
-      en: "Legendary Equipment"
+      "en": "Legendary Equipment"
     },
     "\u901A\u7528\u9053\u5177": {
-      en: "General Items"
+      "en": "General Items"
     },
     "\u88C5\u5907\u84DD\u56FE": {
-      en: "Equipment Blueprint"
+      "en": "Equipment Blueprint"
     },
     "\u9009\u62E9\u89D2\u8272": {
-      en: "Select Character"
+      "en": "Select Character"
     },
     "\u8F6E\u6B21\u6A21\u5F0F": {
-      en: "Round Mode"
+      "en": "Round Mode"
     },
     "\u65E5\u671F\u9009\u62E9": {
-      en: "Date Selection"
+      "en": "Date Selection"
     },
     "\u52C7\u8005\u4E4B\u8BC1": {
-      en: "Proof of the Brave"
+      "en": "Proof of the Brave"
     },
     "\u753B\u4E2D\u96EA\u539F": {
-      en: "Snowpaper"
+      "en": "Snowpaper"
     },
     "\u5730\u56FE\u6548\u7387": {
-      en: "Efficiency"
+      "en": "Efficiency"
     },
     "\u68F1\u955C\u6821\u5C3A": {
-      en: "Prism Gauge"
+      "en": "Prism Gauge"
     },
     "\u6536\u76CA\u8D8B\u52BF": {
-      en: "Profit Trend"
+      "en": "Profit Trend"
     },
     "\u89E6\u5A92\u6280\u80FD": {
-      en: "Activation Medium Skills"
+      "en": "Activation Medium Skills"
     },
     "\u6B7B\u4EA1\u6B21\u6570": {
-      en: "Maps ran"
+      "en": "Maps ran"
     },
     "\u786E\u8BA4\u64CD\u4F5C": {
-      en: "Confirm Action (Deletion?)"
+      "en": "Confirm Action (Deletion?)"
     },
     "\u6682\u65E0\u6570\u636E": {
-      en: "No Data"
+      "en": "No Data"
     },
     "\u6682\u65E0\u7269\u54C1": {
-      en: "No Items"
+      "en": "No Items"
     },
     "\u4EBA\u7269\u540D\u79F0": {
-      en: "Character Name"
+      "en": "Character Name"
     },
     "\u6B3A\u8BC8\u4E4B\u795E": {
-      en: "Goddess of Deception"
+      "en": "Goddess of Deception"
     },
     "\u795E\u5A01\u7EB9\u7AE0": {
-      en: "Divinity Emblem"
+      "en": "Divinity Emblem"
     },
     "\u5168\u90E8\u533A\u57DF": {
-      en: "Region"
+      "en": "Region"
     },
     "\u5168\u90E8\u73A9\u6CD5": {
-      en: "Mode"
+      "en": "Mode"
     },
     "\u5168\u90E8\u65F6\u523B": {
-      en: "Timemark"
+      "en": "Timemark"
     },
     "\u8D8B\u52BF\u5206\u6790": {
-      en: "Trend Analysis"
-    },
-    "\u8FD0\u884C\u4E2D": {
-      en: "Running"
-    },
-    "\u5DF2\u5173\u95ED": {
-      en: "Disabled"
-    },
-    "\u900F\u660E\u5EA6": {
-      en: "Background Blur"
-    },
-    "\u72B6\u6001:": {
-      en: "Status:"
-    },
-    "\u5DF2\u5F00\u542F": {
-      en: "Enabled"
-    },
-    "\u6211\u6570\u5230": {
-      en: "I counted to"
-    },
-    "\u4EF7\u6298\u7B97": {
-      en: "Price Conversion"
-    },
-    "\u539F\u6A21\u5F0F": {
-      en: "Light BG"
-    },
-    "\u76AE\u5361\u4E18": {
-      en: "Pikachu"
-    },
-    "\u6770\u5C3C\u9F9F": {
-      en: "Squirtle"
-    },
-    "\u6D3E\u5927\u661F": {
-      en: "Patrick"
-    },
-    "\u81EA\u5B9A\u4E49": {
-      en: "Custom BG"
-    },
-    "\u672A\u663E\u793A": {
-      en: "Hidden"
-    },
-    "\u77E5\u9053\u4E86": {
-      en: "Ok"
-    },
-    "\u603B\u62FE\u53D6": {
-      en: "Ttl Loot"
-    },
-    "\u603B\u6210\u672C": {
-      en: "Ttl Cost"
-    },
-    "\u603B\u7528\u65F6": {
-      en: "Total Time"
-    },
-    "\u603B\u6B21\u6570": {
-      en: "Total Maps"
-    },
-    "\u7B56\u7565\u699C": {
-      en: "Strategy Leaderboard"
-    },
-    "\u5747\u8017\u65F6": {
-      en: "Avg Time"
-    },
-    "\u672A\u8BB0\u5F55": {
-      en: "Offline"
-    },
-    "\u6DA8\u8DCC\u5E45": {
-      en: "Change"
-    },
-    "\u4EF7\u683C\u5E93": {
-      en: "Price Database"
-    },
-    "\u6392\u884C\u699C": {
-      en: "Leaderboard"
-    },
-    "\u8BB0\u5F55\u4E2D": {
-      en: "Tracking"
-    },
-    "\u603B\u6536\u76CA": {
-      en: "Total Profit"
-    },
-    "\u6700\u5C0F\u5316": {
-      en: "Minimize"
-    },
-    "\u6700\u5927\u5316": {
-      en: "Maximize"
-    },
-    "\u4E3B\u7C7B\u578B": {
-      en: "Main Type"
-    },
-    "\u5B50\u7C7B\u578B": {
-      en: "Sub Type"
-    },
-    "\u6E34\u996E\u75C7": {
-      en: "Vorax"
-    },
-    "\u672A\u8BBE\u7F6E": {
-      en: "Not set"
-    },
-    "\u603B\u4EF7\u503C": {
-      en: "Total Value"
-    },
-    "\u4EF6\u7269\u54C1": {
-      en: "Items"
-    },
-    "\u4E0A\u4E00\u9875": {
-      en: "Previous"
-    },
-    "\u4E0B\u4E00\u9875": {
-      en: "Next"
-    },
-    "\u4EF7\u683C\u9AD8": {
-      en: "Price High"
-    },
-    "\u4EF7\u683C\u4F4E": {
-      en: "Price Low"
-    },
-    "\u7ADE\u901F\u699C": {
-      en: "Racing Leaderboard"
-    },
-    "\u7231\u73A9\u699C": {
-      en: "Maps Leaderboard"
-    },
-    "\u66F4\u65B0\u4E8E": {
-      en: "Updated At"
-    },
-    "\u65E0\u5929\u8D4B": {
-      en: "None"
-    },
-    "\u5237\u65B0": {
-      en: "Refresh"
-    },
-    "\u7F1D\u7EBF": {
-      en: "Suture"
-    },
-    "\u68A6\u8BED": {
-      en: "Shallow Dream"
-    },
-    "\u9999\u6599": {
-      en: "Herbs"
-    },
-    "\u5143\u4EF6": {
-      en: "Mods"
-    },
-    "\u547D\u8FD0": {
-      en: "Kismet"
-    },
-    "\u672A\u77E5": {
-      en: "Unidentified"
-    },
-    "\u8BBE\u7F6E": {
-      en: "Settings"
-    },
-    "\u4E0A\u79FB": {
-      en: "Move Up"
-    },
-    "\u4E0B\u79FB": {
-      en: "Move Down"
-    },
-    "\u72B6\u6001": {
-      en: "Status"
-    },
-    "\u9ED8\u8BA4": {
-      en: "Default"
-    },
-    "\u725B\u725B": {
-      en: "Cow"
-    },
-    "\u8BA1\u7A0E": {
-      en: "After Tax"
-    },
-    "\u603B\u8BA1": {
-      en: "Show All"
-    },
-    "\u573A\u5747": {
-      en: "Avg Map"
-    },
-    "\u56FE\u5185": {
-      en: "Current Map"
+      "en": "Trend Analysis"
     },
     "\u7B56\u7565\u6982\u89C8": {
-      en: "Strategy Overview"
-    },
-    "\u8BE6\u60C5": {
-      en: "Details"
+      "en": "Strategy Overview"
     },
     "\u7B56\u7565\u5360\u6BD4": {
-      en: "Usage Rate"
+      "en": "Usage Rate"
     },
     "\u5F53\u524D\u6307\u6807": {
-      en: "Current Metrics"
-    },
-    "\u7B56\u7565": {
-      en: "Strategy"
-    },
-    "\u8BC4\u5206": {
-      en: "Score"
-    },
-    "\u8D8B\u52BF": {
-      en: "Trend"
-    },
-    "\u4FE1\u6807": {
-      en: "Beacon"
-    },
-    "\u5316\u77F3": {
-      en: "Fossil"
-    },
-    "\u94A2\u56FE": {
-      en: "Steel Forge"
-    },
-    "\u96F7\u56FE": {
-      en: "Thunder Wastes"
-    },
-    "\u51B0\u56FE": {
-      en: "Glacial Abyss"
-    },
-    "\u706B\u56FE": {
-      en: "Lava Sea"
-    },
-    "\u6697\u56FE": {
-      en: "Void Lands"
-    },
-    "\u672C\u5468": {
-      en: "Week"
-    },
-    "\u672C\u6708": {
-      en: "Month"
-    },
-    "\u63A2\u9488": {
-      en: "Probe"
-    },
-    "\u672C\u56FE": {
-      en: "This Map"
-    },
-    "\u6B21\u6570": {
-      en: "Runs"
-    },
-    "\u7528\u65F6": {
-      en: "Duration"
-    },
-    "\u5C0F\u65F6": {
-      en: "Hour"
-    },
-    "\u6BCF\u65E5": {
-      en: "Daily"
-    },
-    "\u603B\u89C8": {
-      en: "Overview"
-    },
-    "\u7269\u54C1": {
-      en: "Items"
-    },
-    "\u6263\u7A0E": {
-      en: "After Tax"
-    },
-    "\u5B9E\u9645": {
-      en: "Actual"
-    },
-    "\u62FE\u53D6": {
-      en: "Loot"
-    },
-    "\u6210\u672C": {
-      en: "Cost"
-    },
-    "\u6536\u76CA": {
-      en: "Profit"
+      "en": "Current Metrics"
     },
     "\u5E73\u5747\u6548\u7387": {
-      en: "Avg Efficiency"
+      "en": "Avg Efficiency"
+    },
+    "\u76D1\u89C6\u8005": {
+      "en": "Watcher"
+    },
+    "\u6E34\u763E\u75C7": {
+      "en": "Vorax Theater"
+    },
+    "\u4E3B\u5929\u8D4B": {
+      "en": "Main Talents"
+    },
+    "\u8FD0\u884C\u4E2D": {
+      "en": "Running"
+    },
+    "\u5DF2\u5173\u95ED": {
+      "en": "Disabled"
+    },
+    "\u900F\u660E\u5EA6": {
+      "en": "Background Blur"
+    },
+    "\u72B6\u6001:": {
+      "en": "Status:"
+    },
+    "\u5DF2\u5F00\u542F": {
+      "en": "Enabled"
+    },
+    "\u6211\u6570\u5230": {
+      "en": "I counted to"
+    },
+    "\u4EF7\u6298\u7B97": {
+      "en": "Price Conversion"
+    },
+    "\u539F\u6A21\u5F0F": {
+      "en": "Light BG"
+    },
+    "\u76AE\u5361\u4E18": {
+      "en": "Pikachu"
+    },
+    "\u6770\u5C3C\u9F9F": {
+      "en": "Squirtle"
+    },
+    "\u6D3E\u5927\u661F": {
+      "en": "Patrick"
+    },
+    "\u81EA\u5B9A\u4E49": {
+      "en": "Custom BG"
+    },
+    "\u672A\u663E\u793A": {
+      "en": "Hidden"
+    },
+    "\u77E5\u9053\u4E86": {
+      "en": "Ok"
+    },
+    "\u603B\u62FE\u53D6": {
+      "en": "Ttl Loot"
+    },
+    "\u603B\u6210\u672C": {
+      "en": "Ttl Cost"
+    },
+    "\u603B\u7528\u65F6": {
+      "en": "Total Time"
+    },
+    "\u603B\u6B21\u6570": {
+      "en": "Total Maps"
+    },
+    "\u7B56\u7565\u699C": {
+      "en": "Strategy Leaderboard"
+    },
+    "\u5747\u8017\u65F6": {
+      "en": "Avg Time"
+    },
+    "\u672A\u8BB0\u5F55": {
+      "en": "Offline"
+    },
+    "\u6DA8\u8DCC\u5E45": {
+      "en": "Change"
+    },
+    "\u4EF7\u683C\u5E93": {
+      "en": "Price Database"
+    },
+    "\u6392\u884C\u699C": {
+      "en": "Leaderboard"
+    },
+    "\u8BB0\u5F55\u4E2D": {
+      "en": "Tracking"
+    },
+    "\u603B\u6536\u76CA": {
+      "en": "Total Profit"
+    },
+    "\u6700\u5C0F\u5316": {
+      "en": "Minimize"
+    },
+    "\u6700\u5927\u5316": {
+      "en": "Maximize"
+    },
+    "\u4E3B\u7C7B\u578B": {
+      "en": "Main Type"
+    },
+    "\u5B50\u7C7B\u578B": {
+      "en": "Sub Type"
+    },
+    "\u6E34\u996E\u75C7": {
+      "en": "Vorax"
+    },
+    "\u672A\u8BBE\u7F6E": {
+      "en": "Not set"
+    },
+    "\u603B\u4EF7\u503C": {
+      "en": "Total Value"
+    },
+    "\u4EF6\u7269\u54C1": {
+      "en": "Items"
+    },
+    "\u4E0A\u4E00\u9875": {
+      "en": "Previous"
+    },
+    "\u4E0B\u4E00\u9875": {
+      "en": "Next"
+    },
+    "\u4EF7\u683C\u9AD8": {
+      "en": "Price High"
+    },
+    "\u4EF7\u683C\u4F4E": {
+      "en": "Price Low"
+    },
+    "\u7ADE\u901F\u699C": {
+      "en": "Racing Leaderboard"
+    },
+    "\u7231\u73A9\u699C": {
+      "en": "Maps Leaderboard"
+    },
+    "\u66F4\u65B0\u4E8E": {
+      "en": "Updated At"
+    },
+    "\u65E0\u5929\u8D4B": {
+      "en": "None"
+    },
+    "\u5DE8\u529B": {
+      "en": "Might"
+    },
+    "\u5927\u4EA8": {
+      "en": "Sandlord"
+    },
+    "\u4E07\u754C": {
+      "en": "Rift of Dimensions"
+    },
+    "\u5730\u56FE": {
+      "en": "Map"
+    },
+    "\u56DA\u7B3C": {
+      "en": "Cage"
+    },
+    "\u5E7D\u9083": {
+      "en": "Profound"
+    },
+    "\u6536\u8D77": {
+      "en": "Show Less"
+    },
+    "\u603B\u4EF7": {
+      "en": "Total Price"
+    },
+    "\u6570\u91CF": {
+      "en": "Quantity"
+    },
+    "\u6392\u540D": {
+      "en": "Rank"
+    },
+    "\u533A\u57DF": {
+      "en": "Region"
+    },
+    "\u73A9\u6CD5": {
+      "en": "Mode"
+    },
+    "\u5468\u4E00": {
+      "en": "Mon."
+    },
+    "\u5468\u65E5": {
+      "en": "Sun."
+    },
+    "\u5468\u516D": {
+      "en": "Sat."
+    },
+    "\u5468\u4E94": {
+      "en": "Fri."
+    },
+    "\u6BDB\u5229": {
+      "en": "Before Tax"
+    },
+    "\u5854\u7F57": {
+      "en": "Arcana"
+    },
+    "\u5237\u65B0": {
+      "en": "Refresh"
+    },
+    "\u7F1D\u7EBF": {
+      "en": "Suture"
+    },
+    "\u68A6\u8BED": {
+      "en": "Shallow Dream"
+    },
+    "\u9999\u6599": {
+      "en": "Herbs"
+    },
+    "\u5143\u4EF6": {
+      "en": "Mods"
+    },
+    "\u547D\u8FD0": {
+      "en": "Kismet"
+    },
+    "\u672A\u77E5": {
+      "en": "Unidentified"
+    },
+    "\u8BBE\u7F6E": {
+      "en": "Settings"
+    },
+    "\u4E0A\u79FB": {
+      "en": "Move Up"
+    },
+    "\u4E0B\u79FB": {
+      "en": "Move Down"
+    },
+    "\u72B6\u6001": {
+      "en": "Status"
+    },
+    "\u9ED8\u8BA4": {
+      "en": "Default"
+    },
+    "\u725B\u725B": {
+      "en": "Cow"
+    },
+    "\u8BA1\u7A0E": {
+      "en": "After Tax"
+    },
+    "\u603B\u8BA1": {
+      "en": "Show All"
+    },
+    "\u573A\u5747": {
+      "en": "Avg Map"
+    },
+    "\u56FE\u5185": {
+      "en": "Current Map"
+    },
+    "\u8BE6\u60C5": {
+      "en": "Details"
+    },
+    "\u7B56\u7565": {
+      "en": "Strategy"
+    },
+    "\u8BC4\u5206": {
+      "en": "Score"
+    },
+    "\u8D8B\u52BF": {
+      "en": "Trend"
+    },
+    "\u4FE1\u6807": {
+      "en": "Beacon"
+    },
+    "\u5316\u77F3": {
+      "en": "Fossil"
+    },
+    "\u94A2\u56FE": {
+      "en": "Steel Forge"
+    },
+    "\u96F7\u56FE": {
+      "en": "Thunder Wastes"
+    },
+    "\u51B0\u56FE": {
+      "en": "Glacial Abyss"
+    },
+    "\u706B\u56FE": {
+      "en": "Lava Sea"
+    },
+    "\u6697\u56FE": {
+      "en": "Void Lands"
+    },
+    "\u672C\u5468": {
+      "en": "Week"
+    },
+    "\u672C\u6708": {
+      "en": "Month"
+    },
+    "\u63A2\u9488": {
+      "en": "Probe"
+    },
+    "\u672C\u56FE": {
+      "en": "This Map"
+    },
+    "\u6B21\u6570": {
+      "en": "Runs"
+    },
+    "\u7528\u65F6": {
+      "en": "Duration"
+    },
+    "\u5C0F\u65F6": {
+      "en": "Hour"
+    },
+    "\u6BCF\u65E5": {
+      "en": "Daily"
+    },
+    "\u603B\u89C8": {
+      "en": "Overview"
+    },
+    "\u7269\u54C1": {
+      "en": "Items"
+    },
+    "\u6263\u7A0E": {
+      "en": "After Tax"
+    },
+    "\u5B9E\u9645": {
+      "en": "Actual"
+    },
+    "\u62FE\u53D6": {
+      "en": "Loot"
+    },
+    "\u6210\u672C": {
+      "en": "Cost"
+    },
+    "\u6536\u76CA": {
+      "en": "Profit"
     },
     "\u6548\u7387": {
-      en: "Efficiency"
+      "en": "Efficiency"
     },
     "\u65F6\u957F": {
-      en: "Duration"
+      "en": "Duration"
     },
     "\u91CD\u7F6E": {
-      en: "Reset"
+      "en": "Reset"
     },
     "\u5173\u95ED": {
-      en: "Close"
+      "en": "Close"
     },
     "\u70B9\u51FB": {
-      en: "Click"
+      "en": "Click"
     },
     "\u6E05\u7A7A": {
-      en: "Clear"
+      "en": "Clear"
     },
     "\u80CC\u5305": {
-      en: "Backpack"
+      "en": "Backpack"
     },
     "\u4ED3\u5E93": {
-      en: "Storage"
+      "en": "Storage"
     },
     "\u5168\u90E8": {
-      en: "All"
+      "en": "All"
     },
     "\u6280\u80FD": {
-      en: "Skills"
+      "en": "Skills"
     },
     "\u5176\u4ED6": {
-      en: "Other"
+      "en": "Other"
     },
     "\u901A\u8D27": {
-      en: "Currency"
+      "en": "Currency"
     },
     "\u5355\u4EF7": {
-      en: "Unit Price"
+      "en": "Unit Price"
     },
     "\u5206\u9875": {
-      en: "Pagination"
+      "en": "Pagination"
     },
     "\u88C5\u5907": {
-      en: "Equipment"
+      "en": "Equipment"
     },
     "\u5217\u8868": {
-      en: "List"
+      "en": "List"
     },
     "\u84DD\u56FE": {
-      en: "Blueprint"
+      "en": "Blueprint"
     },
     "\u8F85\u52A9": {
-      en: "Support"
+      "en": "Support"
     },
     "\u89E6\u5A92": {
-      en: "Catalyst"
+      "en": "Catalyst"
     },
     "\u7CBE\u5BC6": {
-      en: "Precision"
+      "en": "Precision"
     },
     "\u6781\u6B66": {
-      en: "Ultimate"
+      "en": "Ultimate"
     },
     "\u89D2\u8272": {
-      en: "Character"
+      "en": "Character"
     },
     "\u8F6E\u6B21": {
-      en: "Round"
+      "en": "Round"
     },
     "\u5DF2\u9009": {
-      en: "Selected"
+      "en": "Selected"
     },
     "\u4ECA\u65E5": {
-      en: "Today"
+      "en": "Today"
     },
     "\u82F1\u96C4": {
-      en: "Hero"
+      "en": "Hero"
     },
     "\u6DF1\u7A7A": {
-      en: "Deep Space"
+      "en": "Deep Space"
     },
     "\u53D6\u6D88": {
-      en: "Cancel"
+      "en": "Cancel"
     },
     "\u786E\u8BA4": {
-      en: "Confirm"
+      "en": "Confirm"
     },
     "\u5E73\u5747": {
-      en: "Average"
+      "en": "Average"
     },
     "\u5206\u949F": {
-      en: "min"
+      "en": "min"
     },
     "\u8D5B\u5B63": {
-      en: "Season"
-    },
-    "\u79D2": {
-      en: "seconds"
-    },
-    "\u6BCF": {
-      en: "Per"
-    },
-    "\u4EF6": {
-      en: " pcs"
-    },
-    "\u6761": {
-      en: " entries"
-    },
-    "\u9AD8": {
-      en: "High"
-    },
-    "\u4F4E": {
-      en: "Low"
-    },
-    "\u65B0": {
-      en: "New"
-    },
-    "\u65E7": {
-      en: "Old"
-    },
-    "\u5929": {
-      en: " days"
-    },
-    "\u8F6E": {
-      en: " rounds"
-    },
-    "\u8FD1": {
-      en: "Recent"
-    },
-    "\u603B": {
-      en: "Total"
-    },
-    "\u706B": {
-      en: "\u{1F525}"
+      "en": "Season"
     },
     " \u5206": {
-      en: " mins"
+      "en": " mins"
+    },
+    "\u79CD": {
+      "en": "Types"
+    },
+    "\u5171": {
+      "en": "Total"
+    },
+    "\u79D2": {
+      "en": "seconds"
+    },
+    "\u6BCF": {
+      "en": "Per"
+    },
+    "\u4EF6": {
+      "en": " pcs"
+    },
+    "\u6761": {
+      "en": " entries"
+    },
+    "\u9AD8": {
+      "en": "High"
+    },
+    "\u4F4E": {
+      "en": "Low"
+    },
+    "\u65B0": {
+      "en": "New"
+    },
+    "\u65E7": {
+      "en": "Old"
+    },
+    "\u5929": {
+      "en": " days"
+    },
+    "\u8F6E": {
+      "en": " rounds"
+    },
+    "\u8FD1": {
+      "en": "Recent"
+    },
+    "\u603B": {
+      "en": "Total"
+    },
+    "\u706B": {
+      "en": "\u{1F525}"
     },
     "\u65F6": {
-      en: "Hour"
+      "en": "Hour"
     }
   };
   var buildLangMap = (lang) => {

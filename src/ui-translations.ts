@@ -555,6 +555,9 @@ const uiTranslations: Translations = {
     "YiHuo ETor": {
         en: "易火 ETor (CF)"
     },
+    "YiHuo-ETor": {
+        en: "易火 ETor (CF)"
+    },
     "易火 ETor": {
         en: "易火 ETor (CF)"
     },

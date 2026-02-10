@@ -4,6 +4,15 @@ import { atlasTalentTranslations } from "./atlas-talents"
 import { Lang, Translations } from "./translations.types"
 
 const patchNotes: Translations = {
+    "https://drive.google.com/file/d/1SRTJRiegM-iWIWJPDpb00acOzMz8etDP": {
+        en: "[Non-Portable URL Install Hidden due to security risks]"
+    },
+    "修复成本物品列表价格显示错误的问题": {
+        en: "Fixed issue with incorrect price display in cost item list"
+    },
+    "初步完成国际化英文版本，并提供一个支持海外网络的安装包,后续逐步实现所有物品英文文本": {
+        en: "Initial release of English version with support for overseas networks, with gradual implementation of English text for all items"
+    },
     "天赋树": {
         en: "Constellation"
     },
@@ -119,10 +128,10 @@ const characterClassTranslations: Translations = {
         en: "E3"
     },
     "宾1": {
-        en: "B1"
+        en: "B1" // Confirmed
     },
     "宾2": {
-        en: "B2"
+        en: "B2" // Confirmed
     },
     "冰1": {
         en: "G1"
@@ -522,11 +531,29 @@ const uiTranslations: Translations = {
     "极简模式显示项": {
         en: "Mini Window Display Items"
     },
+    "简体中文": {
+        en: "Translated English"
+    },
+    "周一": {
+        en: "Mon."
+    },
+    "周日": {
+        en: "Sun."
+    },
+    "周六": {
+        en: "Sat."
+    },
+    "周五": {
+        en: "Fri."
+    },
     "当前记录的角色": {
         en: "Character in Current Session"
     },
     "S11赛季在线": {
-        en: "S11 ETOR Users:"
+        en: "Season 11 Online"
+    },
+    "YiHuo ETor": {
+        en: "易火 ETor (CF)"
     },
     "易火 ETor": {
         en: "易火 ETor (CF)"
@@ -814,7 +841,7 @@ const uiTranslations: Translations = {
         en: "History"
     },
     "策略分析": {
-        en: "Strategy Analysis"
+        en: "Analytics"
     },
     "小窗模式": {
         en: "Mini Window"
@@ -1113,6 +1140,18 @@ const uiTranslations: Translations = {
     "图内": {
         en: "Current Map"
     },
+    "策略概览": {
+        en: "Strategy Overview"
+    },
+    "详情": {
+        en: "Details"
+    },
+    "策略占比": {
+        en: "Usage Rate"
+    },
+    "当前指标": {
+        en: "Current Metrics"
+    },
     "策略": {
         en: "Strategy"
     },
@@ -1187,6 +1226,9 @@ const uiTranslations: Translations = {
     },
     "收益": {
         en: "Profit"
+    },
+    "平均效率": {
+        en: "Avg Efficiency"
     },
     "效率": {
         en: "Efficiency"

@@ -139,7 +139,6 @@ function processPendingTranslations(): void {
   }
 }
 
-// Force Vue i18n locale to English
 const app = (document.querySelector('#app') as any)?.__vue_app__;
 if (app) {
   const i18n = app.config.globalProperties.$i18n;
@@ -149,7 +148,6 @@ if (app) {
 hideUnwantedElements(document);
 translateElement(document.body);
 
-// MutationObserver for dynamic content
 const observer = new MutationObserver((mutations) => {
   for (const mutation of mutations) {
     for (const node of mutation.addedNodes) {
@@ -172,20 +170,18 @@ observer.observe(document.body, {
   characterData: true
 });
 
-// Watch for portal root and observe it when it appears
-const portalObserver = new MutationObserver((mutations) => {
+const portalModalObserver = new MutationObserver((mutations) => {
   for (const mutation of mutations) {
     for (const node of mutation.addedNodes) {
       if (node.nodeType === Node.ELEMENT_NODE) {
         const el = node as Element;
         if (el.id === 'headlessui-portal-root') {
-          // Portal root appeared, observe it for modal content
           observer.observe(el, {
             childList: true,
             subtree: true,
             characterData: true
           });
-          portalObserver.disconnect();
+          portalModalObserver.disconnect();
           break;
         }
       }
@@ -193,17 +189,15 @@ const portalObserver = new MutationObserver((mutations) => {
   }
 });
 
-// Check if portal already exists
-const existingPortal = document.querySelector('#headlessui-portal-root');
-if (existingPortal) {
-  observer.observe(existingPortal, {
+const existingPortalModal = document.querySelector('#headlessui-portal-root');
+if (existingPortalModal) {
+  observer.observe(existingPortalModal, {
     childList: true,
     subtree: true,
     characterData: true
   });
 } else {
-  // Watch for portal to be created
-  portalObserver.observe(document.body, {
+  portalModalObserver.observe(document.body, {
     childList: true,
     subtree: false
   });

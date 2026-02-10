@@ -29,6 +29,16 @@ function hideUnwantedElements(root: Element | Document): void {
       }
     }
   }
+
+  const langSwitchers = root.querySelectorAll('.language-switcher');
+  for (const el of langSwitchers) {
+    const container = el.closest('.px-1');
+    const target = container ?? el;
+    if (!hiddenElements.has(target)) {
+      (target as HTMLElement).style.display = 'none';
+      hiddenElements.add(target);
+    }
+  }
 }
 
 function translateText(text: string): string {
@@ -115,6 +125,13 @@ function processPendingTranslations(): void {
       }
     }
   }
+}
+
+// Force Vue i18n locale to English
+const app = (document.querySelector('#app') as any)?.__vue_app__;
+if (app) {
+  const i18n = app.config.globalProperties.$i18n;
+  if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
 }
 
 hideUnwantedElements(document);

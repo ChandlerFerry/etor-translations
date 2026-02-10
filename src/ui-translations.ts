@@ -580,12 +580,6 @@ const uiTranslations: Translations = {
     "YiHuo-ETor": {
         en: "易火 ETor (CF)"
     },
-    "易火 ETor": {
-        en: "易火 ETor (CF)"
-    },
-    "易火-ETor": {
-        en: "易火-ETor (CF)"
-    },
     "总收益(扣税)": {
         en: "Total Profit (After Tax)"
     },

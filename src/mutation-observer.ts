@@ -139,11 +139,14 @@ function processPendingTranslations(): void {
   }
 }
 
-const app = (document.querySelector('#app') as any)?.__vue_app__;
-if (app) {
-  const i18n = app.config.globalProperties.$i18n;
-  if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
-}
+const trySetLocale = setInterval(() => {
+  const app = (document.querySelector('#app') as any)?.__vue_app__;
+  if (app) {
+    clearInterval(trySetLocale);
+    const i18n = app.config.globalProperties.$i18n;
+    if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
+  }
+}, 100);
 
 hideUnwantedElements(document);
 translateElement(document.body);

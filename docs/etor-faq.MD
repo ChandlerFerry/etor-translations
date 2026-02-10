@@ -3,10 +3,7 @@
 ## What is ETOR?
 Was posted on Bili Bili - https://www.bilibili.com/opus/1157556272554311684
 
-Used by [Poogf01](https://www.twitch.tv/poogf01) uses a tool called **ETOR** to track loot.
-
-In his [stream](https://www.twitch.tv/poogf01), you can use the command `!照妖鏡` to receive the [download link](https://drive.google.com/file/d/1M8LGVXfD8DuQRS8prOuA9iDw3n2amVOZ/view)
-
+Used by [Poogf01](https://www.twitch.tv/poogf01) to track loot, in his [stream](https://www.twitch.tv/poogf01), you can use the command `!照妖鏡` to receive the [download link](https://drive.google.com/file/d/1M8LGVXfD8DuQRS8prOuA9iDw3n2amVOZ/view)
 
 ## How do I install it?
 
@@ -31,7 +28,7 @@ This method requires you to have the [original ETOR application](./docs/etor-faq
 
 ## Why use this release over the official global release?
 
-The original ETOR developer has released an official international/English version ("global release"). This ChandlerFerry (CF) release differs in several important ways:
+This ChandlerFerry (CF) release differs in several important ways:
 
 ### Security hardening
 

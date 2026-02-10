@@ -39,6 +39,18 @@ function hideUnwantedElements(root: Element | Document): void {
       hiddenElements.add(target);
     }
   }
+
+  const modalHeaders = root.querySelectorAll('.modal-header');
+  for (const header of modalHeaders) {
+    const title = header.querySelector('h2');
+    if (title?.textContent?.includes('Confirm Data Reset')) {
+      const closeBtn = header.querySelector('button[aria-label="关闭"]');
+      if (closeBtn && !hiddenElements.has(closeBtn)) {
+        (closeBtn as HTMLElement).style.display = 'none';
+        hiddenElements.add(closeBtn);
+      }
+    }
+  }
 }
 
 function translateText(text: string): string {
@@ -159,3 +171,40 @@ observer.observe(document.body, {
   subtree: true,
   characterData: true
 });
+
+// Watch for portal root and observe it when it appears
+const portalObserver = new MutationObserver((mutations) => {
+  for (const mutation of mutations) {
+    for (const node of mutation.addedNodes) {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        const el = node as Element;
+        if (el.id === 'headlessui-portal-root') {
+          // Portal root appeared, observe it for modal content
+          observer.observe(el, {
+            childList: true,
+            subtree: true,
+            characterData: true
+          });
+          portalObserver.disconnect();
+          break;
+        }
+      }
+    }
+  }
+});
+
+// Check if portal already exists
+const existingPortal = document.querySelector('#headlessui-portal-root');
+if (existingPortal) {
+  observer.observe(existingPortal, {
+    childList: true,
+    subtree: true,
+    characterData: true
+  });
+} else {
+  // Watch for portal to be created
+  portalObserver.observe(document.body, {
+    childList: true,
+    subtree: false
+  });
+}

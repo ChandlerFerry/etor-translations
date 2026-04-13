@@ -16649,6 +16649,9 @@
 
   // src/atlas-talents.ts
   var atlasTalentTranslations = {
+    "\u5927\u578B\u8282\u70B9": {
+      en: "Major Node"
+    },
     "\u8D77\u59CB\u8282\u70B9": {
       en: "Initial Node"
     },
@@ -16657,9 +16660,6 @@
     },
     "\u4E2D\u578B\u8282\u70B9": {
       en: "Medium Node"
-    },
-    "\u5927\u578B\u8282\u70B9": {
-      en: "Major Node"
     },
     "\u61CA\u6094-\u68A6\u9B47": {
       en: "Regretful - Nightmare"
@@ -16718,10 +16718,10 @@
     "\u53E0\u754C\u4E2D\u7684\u6BCF\u4E00\u5C42 +15% \u6982\u7387\u51FA\u73B0\u5B88\u95E8\u4EBA": {
       en: "+15% chance for Doorkeepers to appear in each level of the Overrealm"
     },
-    '\u53E0\u754C\u4E2D\u7684\u6F02\u6D6E\u5934\u9885\u3001\u9006\u6A21\u56E0\u4E4B\u7B3C\u3001"\u72E9\u95E8\u4EBA"\u4F1A\u6807\u8BB0\u5728\u5C0F\u5730\u56FE\u4E0A': {
+    "\u53E0\u754C\u4E2D\u7684\u6F02\u6D6E\u5934\u9885\u3001\u9006\u6A21\u56E0\u4E4B\u7B3C\u3001\u201C\u72E9\u95E8\u4EBA\u201D\u4F1A\u6807\u8BB0\u5728\u5C0F\u5730\u56FE\u4E0A": {
       en: 'In the Overrealm, Floating Skull, Antimemetic Cage, and "Doorhunter" are marked on the Minimap'
     },
-    '\u53E0\u754C\u4E2D\u7684\u5B88\u95E8\u4EBA\u88AB\u51FB\u8D25\u65F6\uFF0C +16% \u6982\u7387\u5F15\u6765"\u72E9\u95E8\u4EBA"': {
+    "\u53E0\u754C\u4E2D\u7684\u5B88\u95E8\u4EBA\u88AB\u51FB\u8D25\u65F6\uFF0C +16% \u6982\u7387\u5F15\u6765\u201C\u72E9\u95E8\u4EBA\u201D": {
       en: '+ 16% chance for a Doorkeeper to appear when "Doorhunter" is defeated in the Overrealm'
     },
     "\u53E0\u754C\u4E2D\u6389\u843D\u6570\u91CF\u989D\u5916 +1.5%": {
@@ -17084,7 +17084,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +10% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+10% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +10% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +10% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +10% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +10% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {
@@ -17111,7 +17111,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +15% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+15% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +15% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +15% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +15% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +15% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {
@@ -17138,7 +17138,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +23% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+23% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +23% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +23% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +23% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +23% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {
@@ -17165,7 +17165,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +3% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+3% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +3% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +3% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +3% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +3% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {
@@ -17192,7 +17192,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +4% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+4% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +4% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +4% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +4% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +4% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {
@@ -17219,7 +17219,7 @@
     "\u5F02\u754C\u5173\u5361\u4E2D +6% \u6982\u7387\u51FA\u73B0\u673A\u68B0\u4E4B\u795E\u7684\u8BD5\u70BC": {
       en: "+6% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    '\u5F02\u754C\u5173\u5361\u4E2D +6% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684"\u95E8"': {
+    "\u5F02\u754C\u5173\u5361\u4E2D +6% \u6982\u7387\u51FA\u73B0\u8FDB\u5165\u53E0\u754C\u7684\u201C\u95E8\u201D": {
       en: 'In Netherrealm stages, +6% chance for the "Door" leading to the Overrealm to appear'
     },
     "\u5F02\u754C\u5173\u5361\u4E2D +6% \u6982\u7387\u51FA\u73B0\u5DE8\u529B\u4E4B\u795E\u7684\u8BD5\u70BC": {

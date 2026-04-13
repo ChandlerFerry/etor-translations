@@ -1322,6 +1322,9 @@ const uiTranslations: Translations = {
   "深空": {
     "en": "Deep Space"
   },
+  "雾都": {
+    "en": "Mistville"
+  },
   "取消": {
     "en": "Cancel"
   },

@@ -19,17 +19,6 @@ const translatedNodes = new WeakSet<Node>();
 const hiddenElements = new WeakSet<Element>();
 
 function hideUnwantedElements(root: Element | Document): void {
-  const elements = root.querySelectorAll('.text-sm.font-medium.text-slate-700');
-  for (const el of elements) {
-    if (el.textContent?.includes('火价折算')) {
-      const container = el.closest('.flex.items-center.justify-between');
-      if (container && !hiddenElements.has(container)) {
-        (container as HTMLElement).style.display = 'none';
-        hiddenElements.add(container);
-      }
-    }
-  }
-
   // Sigh
   for (const btn of root.querySelectorAll('button')) {
     if (btn.textContent?.includes('FE Price Chart') && !hiddenElements.has(btn)) {
@@ -52,7 +41,7 @@ function hideUnwantedElements(root: Element | Document): void {
   for (const header of modalHeaders) {
     const title = header.querySelector('h2');
     if (title?.textContent?.includes('Confirm Data Reset')) {
-      const closeBtn = header.querySelector('button[aria-label="关闭"]');
+      const closeBtn = header.querySelector('button[aria-label="Close"], button[aria-label="关闭"]');
       if (closeBtn && !hiddenElements.has(closeBtn)) {
         (closeBtn as HTMLElement).style.display = 'none';
         hiddenElements.add(closeBtn);

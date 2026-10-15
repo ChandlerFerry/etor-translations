@@ -5,32 +5,71 @@ const patchNotes: Translations = {
     "https://drive.google.com/file/d/1SRTJRiegM-iWIWJPDpb00acOzMz8etDP": {
         en: "[Non-Portable URL Install Hidden due to security risks]"
     },
-    "在各个模块中添加根据物品类型的价值分布图": {
-        en: "Added value distribution charts by item type in various modules"
+    "https://drive.google.com/file/d/1snwkciyI19488VVsK3KiOe3l8IzzDGGf/view?usp=sharing": {
+        en: "[Non-Portable URL Install Hidden due to security risks]"
     },
-    "优化桌宠成本提示，在进入主城时提醒": {
-        en: "Optimized notification pet cost alerts, now triggers when idle in town"
+    "https://wwtw.lanzouq.com/b007u2g6qj     密码:f6g4": {
+        en: "[Non-Portable URL Install Hidden due to security risks]"
     },
-    "优化策略工作台面板布局,支持实时策略收益和效率计算": {
-        en: "Optimized Strategy Workbench panel layout, supports real-time strategy profit and efficiency calculation"
+    "本次更新为底层客户端更新，请手动下载最新安装包，pc端1.0.6，手机端暂无更新": {
+        en: "This is a core client update. Please download the latest installer manually (PC 1.0.6, no mobile update yet)",
+        ko: "이번 업데이트는 클라이언트 기반 업데이트입니다. 최신 설치 파일을 직접 다운로드하세요 (PC 1.0.6, 모바일은 아직 업데이트 없음)"
     },
-    "策略榜标签支持反选": {
-        en: "Strategy Leaderboard tag supports deselection"
+    "修复一些底层客户端bug，迷城地图指引必须使用最新客户端": {
+        en: "Fixed some core client bugs. The Aeterna map guide requires the latest client",
+        ko: "일부 클라이언트 버그 수정. 아에테르나 맵 가이드는 최신 클라이언트가 필요합니다"
     },
-    "修复历史记录中总时间和图内时间展示不明确的问题": {
-        en: "Fixed issue with unclear display of total time and in-map time in history records"
+    "下载方式": {
+        en: "Download",
+        ko: "다운로드"
     },
-    "支持收益排除物品，在价格库中配置排除物品，排除物品不会计入收益计算": {
-        en: "Added support for excluding items from profit, which can be configured in the price database"
+    "二群：": {
+        en: "QQ Group 2: ",
+        ko: "QQ 그룹 2: "
     },
-    "修复成本物品列表价格显示错误的问题": {
-        en: "Fixed issue with incorrect price display in cost item list"
+    "三群：": {
+        en: "QQ Group 3: ",
+        ko: "QQ 그룹 3: "
     },
-    "优化历史记录轮次选择，修复历史记录拾取总览包含成本的bug": {
-        en: "Optimized history session selection, fixed bug where loot overview included cost items"
+    "四群：": {
+        en: "QQ Group 4: ",
+        ko: "QQ 그룹 4: "
     },
-    "初步完成国际化英文版本，并提供一个支持海外网络的安装包,后续逐步实现所有物品英文文本": {
-        en: "Initial release of English version with support for overseas networks, with gradual implementation of English text for all items"
+    "优化日志读取能力": {
+        en: "Improved log reading",
+        ko: "로그 읽기 개선"
+    },
+    "支持迷城地图指引,在自由布局和小窗模式顶部按钮打开，需新版客户端完整支持": {
+        en: "Added the Aeterna map guide, opened from the top button in Free Layout and Compact Mode (full support requires the new client)",
+        ko: "아에테르나 맵 가이드 지원, 자유 배치 및 컴팩트 모드 상단 버튼으로 열기 (새 클라이언트에서 완전 지원)"
+    },
+    "新版客户端1.0.6发布": {
+        en: "New client 1.0.6 released",
+        ko: "새 클라이언트 1.0.6 출시"
+    },
+    "支持碎星提醒（75以上）": {
+        en: "Added Shattered Star alerts (75+)",
+        ko: "부서진 별 알림 지원 (75 이상)"
+    },
+    "支持大亨劫掠的定时提醒（30分钟）": {
+        en: "Added a timed reminder for Sandlord Heist (30 min)",
+        ko: "샌드로드 강탈 타이머 알림 지원 (30분)"
+    },
+    "调整冥王审核、模组为自定物价物品": {
+        en: "Nether King's Audit and Modules are now custom-priced items",
+        ko: "명왕 심사, 모듈을 사용자 지정 가격 아이템으로 변경"
+    },
+    "修复一些bug": {
+        en: "Fixed some bugs",
+        ko: "일부 버그 수정"
+    },
+    "性能优化": {
+        en: "Performance improvements",
+        ko: "성능 최적화"
+    },
+    "支持繁体、韩语": {
+        en: "Added Traditional Chinese and Korean",
+        ko: "번체 중국어, 한국어 지원"
     },
     "天赋树": {
         en: "Constellation"
@@ -39,7 +78,7 @@ const patchNotes: Translations = {
         en: "Machine"
     },
     "画雪": {
-        en: "Snowpaper"
+        en: "The Frozen Canvas"
     },
     "狩猎": {
         en: "Hunting"
@@ -51,43 +90,13 @@ const patchNotes: Translations = {
         en: "Outlaw"
     },
     "玩偶": {
-        en: "Clockwork"
-    },
-    "在各个模块中添加根据ItemsType的价值分布图": {
-        en: "Added value distribution charts by ItemsType in various modules"
+        en: "Clockwork Ballet"
     },
     "更新日志": {
         en: "Changelog"
     },
     "更新内容": {
         en: "Update"
-    },
-    "画雪支持成本记录": {
-        en: "Added cost item tracking for Snowpaper"
-    },
-    "小窗和极简模式调整": {
-        en: "Mini Window and Minimal Mode Adjustments"
-    },
-    "由于日志原因，棱镜无法区分稀有度，改为默认更新紫色价格": {
-        en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
-    },
-    "调整界面布局，优化数据重置逻辑": {
-        en: "Adjusted UI layout and optimized data reset logic"
-    },
-    "修复桌宠禁用仍显示成本推送的问题": {
-        en: "Fixed issue where notification pet would still show cost alerts when disabled"
-    },
-    "优化设置界面内容项": {
-        en: "Optimized settings UI content items"
-    },
-    "优化历史记录模块": {
-        en: "Optimized history module"
-    },
-    "小窗桌宠新增成本余量提醒": {
-        en: "Mini window notification pet added cost balance reminder"
-    },
-    "新增桌宠形象以及支持自定义": {
-        en: "Added notification pet images and support for customization"
     }
 }
 
@@ -162,13 +171,22 @@ const characterClassTranslations: Translations = {
         en: "G3"
     },
     "月1": {
-        en: "S1"
+        en: "T1"
     },
     "月2": {
-        en: "S2"
+        en: "T2"
     },
     "月3": {
-        en: "S3"
+        en: "T3"
+    },
+    "人鱼1": {
+        en: "S1"
+    },
+    "人鱼2": {
+        en: "S2"
+    },
+    "药1": {
+        en: "Sa1"
     }
 }
 
@@ -181,6 +199,10 @@ const notificationPetTranslations: Translations = {
     },
     "个啦，请及时补充哦~": {
         en: " left, please replenish!"
+    },
+    "拍卖行到账": {
+        en: "Auction received",
+        ko: "경매장 입금"
     }
 }
 
@@ -200,61 +222,170 @@ const seasonTranslations: Translations = {
 }
 
 // Brute force | TODO:  replace this with regex
-const tempBruteForceTranslations: Translations = {
-    "等1种": {
-        en: "+1"
+// Strategy summaries are built as `A、B等${total}个` (talents) and `A+B等${total}种` (cost items)
+const tempBruteForceTranslations: Translations = Object.fromEntries(
+    Array.from({ length: 99 }, (_, i) => i + 1).flatMap(n => [
+        [`等${n}种`, { en: ` (${n} total)`, ko: ` (총 ${n}개)` }],
+        [`等${n}个`, { en: ` (${n} total)`, ko: ` (총 ${n}개)` }],
+    ])
+)
+
+// The site hardcodes zh-CN date formatting: "10/14周三" (history), "10月14日" and "10月 '26" (charts)
+const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+const dateTranslations: Translations = Object.fromEntries([
+    ...monthNames.map((name, i) => [`${i + 1}月`, { en: `${name} `, ko: `${i + 1}월 ` }]),
+    ...Array.from({ length: 31 }, (_, i) => [`${i + 1}日`, { en: `${i + 1}`, ko: `${i + 1}일` }]),
+])
+
+// Chinese the site still renders under en-US: hardcoded component strings and the offline page
+const siteHardcodedTranslations: Translations = {
+    "暂时无法打开 ETor": {
+        en: "Unable to open ETor right now",
+        ko: "지금은 ETor를 열 수 없습니다"
     },
-    "等2种": {
-        en: "+2"
+    "正在重试…": {
+        en: "Retrying…",
+        ko: "재시도 중…"
     },
-    "等3种": {
-        en: "+3"
+    "重试": {
+        en: "Retry",
+        ko: "재시도"
     },
-    "等4种": {
-        en: "+4"
+    "退出": {
+        en: "Exit",
+        ko: "종료"
     },
-    "等5种": {
-        en: "+5"
+    "预览物品": {
+        en: "Preview Item",
+        ko: "미리보기 아이템"
     },
-    "等6种": {
-        en: "+6"
+    "普通": {
+        en: "Common",
+        ko: "일반"
     },
-    "等7种": {
-        en: "+7"
+    "优秀": {
+        en: "Uncommon",
+        ko: "고급"
     },
-    "等8种": {
-        en: "+8"
+    "稀有": {
+        en: "Rare",
+        ko: "희귀"
     },
-    "等9种": {
-        en: "+9"
+    "史诗": {
+        en: "Epic",
+        ko: "에픽"
     },
-    "等1个": {
-        en: "+1"
+    "疑似": {
+        en: "Possible",
+        ko: "추정:"
     },
-    "等2个": {
-        en: "+2"
+    "，请选择": {
+        en: ", please select",
+        ko: ", 선택하세요"
     },
-    "等3个": {
-        en: "+3"
+    "子图": {
+        en: "sub-maps",
+        ko: "서브 맵"
     },
-    "等4个": {
-        en: "+4"
+    "1 天": {
+        en: "1 day",
+        ko: "1일"
     },
-    "等5个": {
-        en: "+5"
+    "1 周": {
+        en: "1 week",
+        ko: "1주"
     },
-    "等6个": {
-        en: "+6"
+    "1 月": {
+        en: "1 month",
+        ko: "1개월"
     },
-    "等7个": {
-        en: "+7"
+    "已分配": {
+        en: "Allocated",
+        ko: "할당됨"
     },
-    "等8个": {
-        en: "+8"
+    " 火": {
+        en: " 🔥"
     },
-    "等9个": {
-        en: "+9"
+    "暂无价格": {
+        en: "No price",
+        ko: "가격 없음"
     },
+    "未知地图": {
+        en: "Unknown Map",
+        ko: "알 수 없는 맵"
+    },
+    "未知天赋": {
+        en: "Unknown Talent",
+        ko: "알 수 없는 천부"
+    },
+    "未知时刻": {
+        en: "Unknown Time",
+        ko: "알 수 없는 시간"
+    },
+    "未知区域": {
+        en: "Unknown Area",
+        ko: "알 수 없는 영역"
+    },
+    "、": {
+        en: ", "
+    },
+    "Realm监视者": {
+        en: "Realm Watcher"
+    },
+    "Deep Space 深空": {
+        en: "Deep Space"
+    },
+    "K7万界": {
+        en: "K7 Myriad Realm"
+    },
+    "K8万界": {
+        en: "K8 Myriad Realm"
+    },
+    "U8万界": {
+        en: "U8 Myriad Realm"
+    },
+    "黑帆追忆": {
+        en: "Blacksail Memories"
+    },
+    "梦魇迷雾": {
+        en: "Nightmare Mist"
+    },
+    "火价折算": {
+        en: "FE Price Conversion"
+    },
+    "器官：": {
+        en: "Organ: "
+    },
+    "异度棱镜：": {
+        en: "Ethereal Prism: "
+    },
+    "天命：": {
+        en: "Kismet: "
+    },
+    "完美脊椎：": {
+        en: "Flawless Spine: "
+    },
+    "阿日斯兰": {
+        en: "Aslan"
+    },
+    "萨日图雅": {
+        en: "Sarituya"
+    },
+    "繁体中文": {
+        en: "Traditional Chinese"
+    },
+    "高→低": {
+        en: "High→Low"
+    },
+    "低→高": {
+        en: "Low→High"
+    },
+    "新→旧": {
+        en: "New→Old"
+    },
+    "旧→新": {
+        en: "Old→New"
+    }
 }
 const uiTranslations: Translations = {
   "记录状态异常！！！请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏！！": {
@@ -262,9 +393,6 @@ const uiTranslations: Translations = {
   },
   "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": {
     "en": "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
-  },
-  "由于日志原因，棱镜无法区分稀有度，改为默认更新紫色价格": {
-    "en": "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
   },
   "先在游戏设置内点击开启日志，然后重新选择角色进入游戏": {
     "en": "Please \"Enable Log\" in \"Settings -> Other\" then reselect your character"
@@ -302,14 +430,8 @@ const uiTranslations: Translations = {
   "归档当前数据并重置，保存到历史记录": {
     "en": "Archive current data and reset, save to history"
   },
-  "修复桌宠禁用仍显示成本推送的问题": {
-    "en": "Fixed issue where notification pet would still show cost alerts when disabled"
-  },
   "从进第一张图到最后出图之间总时长": {
     "en": "Total time from first map entry to last exit"
-  },
-  "调整界面布局，优化数据重置逻辑": {
-    "en": "Adjusted UI layout and optimized data reset logic"
   },
   "仅展示 K1 - 深空 的记录": {
     "en": "Showing K1 - Deep Space records"
@@ -317,17 +439,11 @@ const uiTranslations: Translations = {
   "开启后模拟主城挂机并加速触发": {
     "en": "Simulates idle in town and speeds up triggers when enabled"
   },
-  "新增桌宠形象以及支持自定义": {
-    "en": "Added notification pet images and support for customization"
-  },
   "Current Map名称": {
     "en": "Current Map Name"
   },
   "至少 30 张图参与统计": {
     "en": ">30 maps required for statistics"
-  },
-  "小窗桌宠新增成本余量提醒": {
-    "en": "Mini window notification pet added cost balance reminder"
   },
   "挂机、成本不足等提醒功能": {
     "en": "Alerts for idle, insufficient cost, etc."
@@ -356,20 +472,8 @@ const uiTranslations: Translations = {
   "排行榜加载中...": {
     "en": "Loading Leaderboard..."
   },
-  "小窗和极简模式调整": {
-    "en": "Mini Window and Minimal Mode Adjustments"
-  },
-  "优化设置界面内容项": {
-    "en": "Optimized settings UI content items"
-  },
   "已显示（拖拽排序）": {
     "en": "Visible (Drag to Sort)"
-  },
-  "画雪支持成本记录": {
-    "en": "Added cost item tracking for Snowpaper"
-  },
-  "优化历史记录模块": {
-    "en": "Optimized history module"
   },
   "切换效率统计单位": {
     "en": "Toggle efficiency calculation unit (min/hour)"
@@ -383,9 +487,6 @@ const uiTranslations: Translations = {
   "保存并开始新记录": {
     "en": "Save and Start New Session"
   },
-  "days赋分布": {
-    "en": "Atlas Talent Distribution"
-  },
   "掉率Items": {
     "en": "Items Found"
   },
@@ -393,28 +494,28 @@ const uiTranslations: Translations = {
     "en": "Display profit after tax"
   },
   "核心器官-戒指": {
-    "en": "Legendary Ring"
+    "en": "Core Organ - Ring"
   },
   "核心器官-手套": {
-    "en": "Legendary Gloves"
+    "en": "Core Organ - Gloves"
   },
   "核心器官-头部": {
-    "en": "Legendary Helm"
+    "en": "Core Organ - Helmet"
   },
   "核心器官-项链": {
-    "en": "Legendary Ammy"
+    "en": "Core Organ - Necklace"
   },
   "核心器官-鞋子": {
-    "en": "Legendary Boots"
+    "en": "Core Organ - Boots"
   },
   "核心器官-胸甲": {
-    "en": "Legendary Chest"
+    "en": "Core Organ - Chest Armor"
   },
   "核心器官-腰带": {
-    "en": "Legendary Belt"
+    "en": "Core Organ - Belt"
   },
   "特殊器官-其它": {
-    "en": "Flawless Organ"
+    "en": "Special Organ - Other"
   },
   "完美肝脏-转伤": {
     "en": "Flawless Liver"
@@ -515,9 +616,6 @@ const uiTranslations: Translations = {
   "清空当前数据": {
     "en": "Delete Session"
   },
-  "最High价": {
-    "en": "Highest"
-  },
   "暂无拾取记录": {
     "en": "No loot records"
   },
@@ -554,9 +652,6 @@ const uiTranslations: Translations = {
   "收益/分钟": {
     "en": "Profit/Min"
   },
-  "最Low价": {
-    "en": "Lowest"
-  },
   "每分钟收益": {
     "en": "Profit/Min"
   },
@@ -582,10 +677,13 @@ const uiTranslations: Translations = {
     "en": "Atlas"
   },
   "勇者之路": {
-    "en": "Proof of the Brave"
+    "en": "Hero's Path"
   },
   "最低价格": {
     "en": "Min Price"
+  },
+  "天赋分布": {
+    "en": "Talent Distribution"
   },
   "最高价格": {
     "en": "Max Price"
@@ -612,7 +710,7 @@ const uiTranslations: Translations = {
     "en": "Map Mode"
   },
   "简体中文": {
-    "en": "Translated English"
+    "en": "Simplified Chinese"
   },
   "更新日志": {
     "en": "Changelog"
@@ -678,7 +776,7 @@ const uiTranslations: Translations = {
     "en": "Filter by Self"
   },
   "原初之核": {
-    "en": "Traveler Entry"
+    "en": "Primeval Core"
   },
   "高塔筹码": {
     "en": "TOWER Token"
@@ -792,7 +890,8 @@ const uiTranslations: Translations = {
     "en": "Analytics"
   },
   "小窗模式": {
-    "en": "Mini Window"
+    "en": "Compact Mode",
+    "ko": "컴팩트 모드"
   },
   "正在记录": {
     "en": "Active"
@@ -864,7 +963,7 @@ const uiTranslations: Translations = {
     "en": "Proof of the Brave"
   },
   "画中雪原": {
-    "en": "Snowpaper"
+    "en": "The Frozen Canvas"
   },
   "地图效率": {
     "en": "Efficiency"
@@ -926,8 +1025,14 @@ const uiTranslations: Translations = {
   "监视者": {
     "en": "Watcher"
   },
+  "最高价": {
+    "en": "Highest"
+  },
+  "最低价": {
+    "en": "Lowest"
+  },
   "渴瘾症": {
-    "en": "Vorax Theater"
+    "en": "Vorax"
   },
   "主天赋": {
     "en": "Main Talents"
@@ -1065,7 +1170,7 @@ const uiTranslations: Translations = {
     "en": "Sandlord"
   },
   "万界": {
-    "en": "Rift of Dimensions"
+    "en": "Myriad Realm"
   },
   "地图": {
     "en": "Map"
@@ -1095,16 +1200,32 @@ const uiTranslations: Translations = {
     "en": "Mode"
   },
   "周一": {
-    "en": "Mon."
+    "en": " Mon.",
+    "ko": " (월)"
+  },
+  "周二": {
+    "en": " Tue.",
+    "ko": " (화)"
+  },
+  "周三": {
+    "en": " Wed.",
+    "ko": " (수)"
+  },
+  "周四": {
+    "en": " Thu.",
+    "ko": " (목)"
   },
   "周日": {
-    "en": "Sun."
+    "en": " Sun.",
+    "ko": " (일)"
   },
   "周六": {
-    "en": "Sat."
+    "en": " Sat.",
+    "ko": " (토)"
   },
   "周五": {
-    "en": "Fri."
+    "en": " Fri.",
+    "ko": " (금)"
   },
   "毛利": {
     "en": "Before Tax"
@@ -1131,7 +1252,8 @@ const uiTranslations: Translations = {
     "en": "Kismet"
   },
   "未知": {
-    "en": "Unidentified"
+    "en": "Unknown",
+    "ko": "알 수 없음"
   },
   "设置": {
     "en": "Settings"
@@ -1342,60 +1464,12 @@ const uiTranslations: Translations = {
   },
   " 分": {
     "en": " mins"
-  },
-  "种": {
-    "en": "Types"
-  },
-  "共": {
-    "en": "Total"
-  },
-  "秒": {
-    "en": "seconds"
-  },
-  "每": {
-    "en": "Per"
-  },
-  "件": {
-    "en": " pcs"
-  },
-  "条": {
-    "en": " entries"
-  },
-  "高": {
-    "en": "High"
-  },
-  "低": {
-    "en": "Low"
-  },
-  "新": {
-    "en": "New"
-  },
-  "旧": {
-    "en": "Old"
-  },
-  "天": {
-    "en": " days"
-  },
-  "轮": {
-    "en": " rounds"
-  },
-  "近": {
-    "en": "Recent"
-  },
-  "总": {
-    "en": "Total"
-  },
-  "火": {
-    "en": "🔥"
-  },
-  "时": {
-    "en": "Hour"
   }
 }
 
 const buildLangMap = (lang: Lang): Record<string, string> => {
     const result: Record<string, string> = {};
-    for (const [key, value] of Object.entries({ ...atlasTalentTranslations,...tempBruteForceTranslations, ...characterClassTranslations, ...notificationPetTranslations, ...patchNotes, ...seasonTranslations, ...uiTranslations })) {
+    for (const [key, value] of Object.entries({ ...atlasTalentTranslations,...tempBruteForceTranslations, ...dateTranslations, ...siteHardcodedTranslations, ...characterClassTranslations, ...notificationPetTranslations, ...patchNotes, ...seasonTranslations, ...uiTranslations })) {
         result[key] = value[lang] ?? value.en;
     }
     return result;

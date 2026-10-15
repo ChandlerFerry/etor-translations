@@ -12,7 +12,8 @@
     "build-script": "tsx src/scripts/build-script.ts",
     "translate": "tsx src/scripts/translate.ts",
     "pull": "npm run build && npm run build-script",
-    "release": "tsx src/scripts/release.ts"
+    "release": "tsx src/scripts/release.ts",
+    "test": "node --test src/ipc-guard.test.ts"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",

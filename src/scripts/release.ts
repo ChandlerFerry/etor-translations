@@ -1,10 +1,10 @@
 import { execSync } from 'child_process';
+import { createHash } from 'crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import sevenZip from '7zip-min';
 import { transform } from 'esbuild';
-import { injectShellBlockerToFile } from './inject-shell-blocker-lib.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -16,8 +16,11 @@ const resourcesDir = join(etorDir, 'resources');
 const appDir = join(resourcesDir, 'app');
 const asarPath = join(resourcesDir, 'app.asar');
 
-const DOWNLOAD_URL = 'https://drive.usercontent.google.com/u/0/uc?id=1M8LGVXfD8DuQRS8prOuA9iDw3n2amVOZ&export=download';
-const ARCHIVE_NAME = 'etor.7z';
+// $PLUGINSDIR/app-64.7z from 易火-ETor Setup 1.0.6.exe (sha256 d76bee60ff136100c027ebfb18e7c141db64b6d6739c2024f25019f362ca41df).
+// ipc-guard.cjs was audited against this exact build; re-audit app.asar before bumping the hash.
+const SOURCE_URL = 'https://github.com/ChandlerFerry/etor-translations/releases/download/upstream-1.0.6/app-64.7z';
+const SOURCE_SHA256 = '624a758fd3a2ab7388a586f93ad450b0f6adacad637ff94f548082066a8ad25e';
+const ARCHIVE_NAME = 'app-64.7z';
 
 const LANGUAGES = ['en', 'ko', 'ja', 'ru'] as const;
 type Language = typeof LANGUAGES[number];
@@ -49,16 +52,21 @@ function setupBuildDir() {
 function downloadArchive() {
   const archivePath = join(buildDir, ARCHIVE_NAME);
   if (!existsSync(archivePath)) {
-    run(`curl -L -o "${archivePath}" "${DOWNLOAD_URL}"`, buildDir);
+    run(`curl -fL -o "${archivePath}" "${SOURCE_URL}"`, buildDir);
+  }
+  const sha256 = createHash('sha256').update(readFileSync(archivePath)).digest('hex');
+  if (sha256 !== SOURCE_SHA256) {
+    rmSync(archivePath);
+    throw new Error(`${ARCHIVE_NAME} sha256 mismatch: expected ${SOURCE_SHA256}, got ${sha256}`);
   }
   return archivePath;
 }
 
 async function extractArchive(archivePath: string): Promise<void> {
-  console.log('Extracting etor.7z...');
-  mkdirSync(extractDir, { recursive: true });
+  console.log(`Extracting ${ARCHIVE_NAME}...`);
+  mkdirSync(etorDir, { recursive: true });
   return new Promise((resolve, reject) => {
-    sevenZip.unpack(archivePath, extractDir, (err: Error | null) => {
+    sevenZip.unpack(archivePath, etorDir, (err: Error | null) => {
       if (err) reject(err);
       else resolve();
     });
@@ -114,10 +122,11 @@ async function injectScript(lang: Language) {
   console.log('Script injected successfully');
 }
 
-function injectShellBlockerToPreload() {
-  console.log('Injecting shell blocker into preload.js...');
-  injectShellBlockerToFile(join(appDir, 'build', 'obf-app', 'preload.js'), false);
-  console.log('Shell blocker injected successfully');
+function injectIpcGuard() {
+  console.log('Injecting IPC guard into main.js...');
+  const mainPath = join(appDir, 'build', 'obf-app', 'main.js');
+  const guard = readFileSync(join(rootDir, 'src', 'ipc-guard.cjs'), 'utf-8');
+  writeFileSync(mainPath, guard + '\n' + readFileSync(mainPath, 'utf-8'), 'utf-8');
 }
 
 function repackAsar() {
@@ -150,7 +159,7 @@ async function buildLanguage(lang: Language, archivePath: string): Promise<strin
   await extractArchive(archivePath);
   extractAsar();
   await injectScript(lang);
-  injectShellBlockerToPreload();
+  injectIpcGuard();
   repackAsar();
   return await createZip(lang);
 }

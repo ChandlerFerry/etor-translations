@@ -19,17 +19,6 @@ const translatedNodes = new WeakSet<Node>();
 const hiddenElements = new WeakSet<Element>();
 
 function hideUnwantedElements(root: Element | Document): void {
-  const elements = root.querySelectorAll('.text-sm.font-medium.text-slate-700');
-  for (const el of elements) {
-    if (el.textContent?.includes('火价折算')) {
-      const container = el.closest('.flex.items-center.justify-between');
-      if (container && !hiddenElements.has(container)) {
-        (container as HTMLElement).style.display = 'none';
-        hiddenElements.add(container);
-      }
-    }
-  }
-
   // Sigh
   for (const btn of root.querySelectorAll('button')) {
     if (btn.textContent?.includes('FE Price Chart') && !hiddenElements.has(btn)) {
@@ -52,7 +41,7 @@ function hideUnwantedElements(root: Element | Document): void {
   for (const header of modalHeaders) {
     const title = header.querySelector('h2');
     if (title?.textContent?.includes('Confirm Data Reset')) {
-      const closeBtn = header.querySelector('button[aria-label="关闭"]');
+      const closeBtn = header.querySelector('button[aria-label="Close"], button[aria-label="关闭"]');
       if (closeBtn && !hiddenElements.has(closeBtn)) {
         (closeBtn as HTMLElement).style.display = 'none';
         hiddenElements.add(closeBtn);
@@ -147,14 +136,23 @@ function processPendingTranslations(): void {
   }
 }
 
-const trySetLocale = setInterval(() => {
-  const app = (document.querySelector('#app') as any)?.__vue_app__;
-  if (app) {
-    clearInterval(trySetLocale);
-    const i18n = app.config.globalProperties.$i18n;
-    if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
+// Keep the site on English through its own (hidden) language switcher: assigning i18n.locale directly
+// skips loading the locale's messages, item names and talent trees, and isn't persisted. A new switch
+// cancels one still loading, hence the cooldown.
+let lastLocaleSwitch = 0;
+setInterval(() => {
+  const i18n = (document.querySelector('#app') as any)?.__vue_app__?.config.globalProperties.$i18n;
+  const locale = typeof i18n?.locale === 'string' ? i18n.locale : i18n?.locale?.value;
+  if (!i18n || locale === 'en-US' || Date.now() - lastLocaleSwitch < 10000) return;
+  const english = Array.from(document.querySelectorAll<HTMLElement>('.language-option'))
+    .find(el => el.textContent?.trim() === 'English');
+  if (english) {
+    english.click();
+    lastLocaleSwitch = Date.now();
+  } else {
+    document.querySelector<HTMLElement>('.language-switcher .language-button')?.click();
   }
-}, 100);
+}, 500);
 
 hideUnwantedElements(document);
 translateElement(document.body);

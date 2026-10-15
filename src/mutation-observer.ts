@@ -147,14 +147,22 @@ function processPendingTranslations(): void {
   }
 }
 
+const siteLocale = TARGET_LANG === 'ko' ? 'ko-KR' : 'en-US';
+const siteLocaleLabel = { 'en-US': 'English', 'ko-KR': '한국어' }[siteLocale];
+
+// Switch through the site's own (hidden) language switcher: assigning i18n.locale directly skips
+// loading the locale's messages, item names and talent trees, and isn't persisted.
+let localeAttempts = 0;
 const trySetLocale = setInterval(() => {
-  const app = (document.querySelector('#app') as any)?.__vue_app__;
-  if (app) {
-    clearInterval(trySetLocale);
-    const i18n = app.config.globalProperties.$i18n;
-    if (i18n && i18n.locale !== 'en-US') i18n.locale = 'en-US';
-  }
-}, 100);
+  const i18n = (document.querySelector('#app') as any)?.__vue_app__?.config.globalProperties.$i18n;
+  if (!i18n) return;
+  const current = typeof i18n.locale === 'string' ? i18n.locale : i18n.locale?.value;
+  if (current === siteLocale || ++localeAttempts > 60) return clearInterval(trySetLocale);
+  const option = Array.from(document.querySelectorAll<HTMLElement>('.language-option'))
+    .find(el => el.textContent?.trim() === siteLocaleLabel);
+  if (option) option.click();
+  else document.querySelector<HTMLElement>('.language-switcher .language-button')?.click();
+}, 500);
 
 hideUnwantedElements(document);
 translateElement(document.body);

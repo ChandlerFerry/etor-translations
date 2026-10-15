@@ -147,21 +147,22 @@ function processPendingTranslations(): void {
   }
 }
 
-const siteLocale = TARGET_LANG === 'ko' ? 'ko-KR' : 'en-US';
-const siteLocaleLabel = { 'en-US': 'English', 'ko-KR': '한국어' }[siteLocale];
-
-// Switch through the site's own (hidden) language switcher: assigning i18n.locale directly skips
-// loading the locale's messages, item names and talent trees, and isn't persisted.
-let localeAttempts = 0;
-const trySetLocale = setInterval(() => {
+// Keep the site on English through its own (hidden) language switcher: assigning i18n.locale directly
+// skips loading the locale's messages, item names and talent trees, and isn't persisted. A new switch
+// cancels one still loading, hence the cooldown.
+let lastLocaleSwitch = 0;
+setInterval(() => {
   const i18n = (document.querySelector('#app') as any)?.__vue_app__?.config.globalProperties.$i18n;
-  if (!i18n) return;
-  const current = typeof i18n.locale === 'string' ? i18n.locale : i18n.locale?.value;
-  if (current === siteLocale || ++localeAttempts > 60) return clearInterval(trySetLocale);
-  const option = Array.from(document.querySelectorAll<HTMLElement>('.language-option'))
-    .find(el => el.textContent?.trim() === siteLocaleLabel);
-  if (option) option.click();
-  else document.querySelector<HTMLElement>('.language-switcher .language-button')?.click();
+  const locale = typeof i18n?.locale === 'string' ? i18n.locale : i18n?.locale?.value;
+  if (!i18n || locale === 'en-US' || Date.now() - lastLocaleSwitch < 10000) return;
+  const english = Array.from(document.querySelectorAll<HTMLElement>('.language-option'))
+    .find(el => el.textContent?.trim() === 'English');
+  if (english) {
+    english.click();
+    lastLocaleSwitch = Date.now();
+  } else {
+    document.querySelector<HTMLElement>('.language-switcher .language-button')?.click();
+  }
 }, 500);
 
 hideUnwantedElements(document);

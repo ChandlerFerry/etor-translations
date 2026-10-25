@@ -1,5 +1,6 @@
 import { enData, koData, jaData, ruData } from "./translations.js";
 import { uiTranslationsMap } from "./ui-translations.js";
+import { addLightThemeButton } from "./overlay-light-theme.js";
 
 declare const TARGET_LANG: 'en' | 'ko' | 'ja' | 'ru';
 
@@ -120,6 +121,7 @@ function processPendingTranslations(): void {
 
     if (node.nodeType === Node.ELEMENT_NODE) {
       hideUnwantedElements(node as Element);
+      addLightThemeButton(node as Element);
       translateElement(node as Element);
     } else if (node.nodeType === Node.TEXT_NODE) {
       if (translatedNodes.has(node)) continue;
@@ -155,6 +157,7 @@ setInterval(() => {
 }, 500);
 
 hideUnwantedElements(document);
+addLightThemeButton(document);
 translateElement(document.body);
 
 const observer = new MutationObserver((mutations) => {
